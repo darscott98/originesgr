@@ -1,37 +1,71 @@
+import BrandMark from "./BrandMark";
+
 export default function Footer() {
+  const year = new Date().getFullYear();
+
   return (
-    <footer className="site-footer">
-      <div className="container footer-grid">
-        <div>
-          <a className="logo" href="#top" aria-label="Origine home">
-            Origine
-          </a>
-          <p>Reliable operations software for teams that need clear execution.</p>
+    <footer>
+      <svg className="arcs" viewBox="0 0 480 480" fill="none" aria-hidden="true">
+        <g stroke="rgba(226,192,116,.22)" strokeWidth="1" fill="none">
+          <circle cx="380" cy="120" r="60" />
+          <circle cx="380" cy="120" r="120" />
+          <circle cx="380" cy="120" r="180" />
+          <circle cx="380" cy="120" r="240" />
+          <circle cx="380" cy="120" r="4" fill="rgba(226,192,116,.8)" stroke="none" />
+        </g>
+      </svg>
+
+      <div className="wrap">
+        <div className="foot-top">
+          <div className="foot-brand">
+            <a href="#top" className="brand" aria-label="Origine SGR — home">
+              <BrandMark />
+              <span className="wm">
+                Origine<span className="sgr">SGR</span>
+              </span>
+            </a>
+            <p className="statement">
+              Capitale e competenza, alle origini del valore industriale italiano.
+            </p>
+          </div>
+
+          <nav className="foot-col" aria-label="Navigazione">
+            <h4>Navigazione</h4>
+            <ul>
+              <li><a href="#societa">Società</a></li>
+              <li><a href="#mercato">Mercato</a></li>
+              <li><a href="#fondi">Fondi</a></li>
+              <li><a href="#esg">ESG</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="/portfolio">Portfolio</a></li>
+            </ul>
+          </nav>
+
+          <div className="foot-col">
+            <h4>Contatti</h4>
+            <address className="addr">
+              Origine SGR S.p.A.
+              <br />
+              Via Monte Napoleone, 20121 Milano
+              <br />
+              <br />
+              <a href="mailto:info@originesgr.it">info@originesgr.it</a>
+              <br />
+              <a href="tel:+390200000000">+39 02 0000 0000</a>
+            </address>
+          </div>
         </div>
 
-        <nav aria-label="Footer product links">
-          <h3>Product</h3>
-          <a href="#features">Features</a>
-          <a href="#pricing">Pricing</a>
-          <a href="#faq">FAQ</a>
-        </nav>
-
-        <nav aria-label="Footer company links">
-          <h3>Company</h3>
-          <a href="#">About</a>
-          <a href="#">Careers</a>
-          <a href="#">Security</a>
-        </nav>
-
-        <nav aria-label="Footer contact links">
-          <h3>Contact</h3>
-          <a href="mailto:hello@origine.app">hello@origine.app</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">Status</a>
-        </nav>
-      </div>
-      <div className="container footer-meta">
-        <p>© {new Date().getFullYear()} Origine. All rights reserved.</p>
+        <div className="foot-bottom">
+          <p className="disc">
+            Origine SGR S.p.A. — Società di Gestione del Risparmio. Le
+            informazioni contenute in questo sito hanno finalità esclusivamente
+            illustrative e non costituiscono offerta al pubblico, sollecitazione
+            all'investimento né consulenza finanziaria. Gli investimenti nei
+            fondi sono riservati a investitori professionali.
+          </p>
+          <p className="copy">© {year} Origine SGR S.p.A.</p>
+        </div>
       </div>
     </footer>
   );
