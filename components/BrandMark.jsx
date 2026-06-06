@@ -5,7 +5,7 @@ export default function BrandMark({ className = "brand-logo" }) {
       src="/images/originesgr-logo.png"
       alt="Origine SGR"
       width="512"
-      height="512"
+      height="512" 
     />
   );
 }
