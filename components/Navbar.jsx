@@ -4,12 +4,12 @@ import { useEffect, useState } from "react";
 import BrandMark from "./BrandMark";
 
 const links = [
-  { label: "Società", href: "#societa" },
-  { label: "Mercato", href: "#mercato" },
-  { label: "Fondi", href: "#fondi" },
-  { label: "ESG", href: "#esg" },
-  { label: "Team", href: "#team" },
-  { label: "News", href: "#news" },
+  { label: "Società", href: "/#societa" },
+  { label: "Mercato", href: "/#mercato" },
+  { label: "Fondi", href: "/#fondi" },
+  { label: "ESG", href: "/#esg" },
+  { label: "Team", href: "/#team" },
+  { label: "News", href: "/#news" },
   { label: "Portfolio", href: "/portfolio" },
 ];
 
@@ -27,7 +27,7 @@ export default function Navbar() {
   return (
     <header id="hdr" className={scrolled ? "scrolled" : ""}>
       <div className="wrap nav">
-        <a href="#top" className="brand" aria-label="Origine SGR — home">
+        <a href="/" className="brand" aria-label="Origine SGR — home">
           <BrandMark />
         </a>
 
@@ -38,7 +38,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="#contatti"
+            href="/#contatti"
             className="nav-cta"
             onClick={() => setOpen(false)}
           >

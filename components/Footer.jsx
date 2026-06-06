@@ -18,7 +18,7 @@ export default function Footer() {
       <div className="wrap">
         <div className="foot-top">
           <div className="foot-brand">
-            <a href="#top" className="brand" aria-label="Origine SGR — home">
+            <a href="/" className="brand" aria-label="Origine SGR — home">
               <BrandMark className="brand-logo foot-logo" />
             </a>
             <p className="statement">
@@ -29,11 +29,11 @@ export default function Footer() {
           <nav className="foot-col" aria-label="Navigazione">
             <h4>Navigazione</h4>
             <ul>
-              <li><a href="#societa">Società</a></li>
-              <li><a href="#mercato">Mercato</a></li>
-              <li><a href="#fondi">Fondi</a></li>
-              <li><a href="#esg">ESG</a></li>
-              <li><a href="#team">Team</a></li>
+              <li><a href="/#societa">Società</a></li>
+              <li><a href="/#mercato">Mercato</a></li>
+              <li><a href="/#fondi">Fondi</a></li>
+              <li><a href="/#esg">ESG</a></li>
+              <li><a href="/#team">Team</a></li>
               <li><a href="/portfolio">Portfolio</a></li>
             </ul>
           </nav>
