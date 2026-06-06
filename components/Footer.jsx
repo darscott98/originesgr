@@ -19,10 +19,7 @@ export default function Footer() {
         <div className="foot-top">
           <div className="foot-brand">
             <a href="#top" className="brand" aria-label="Origine SGR — home">
-              <BrandMark />
-              <span className="wm">
-                Origine<span className="sgr">SGR</span>
-              </span>
+              <BrandMark className="brand-logo foot-logo" />
             </a>
             <p className="statement">
               Capitale e competenza, alle origini del valore industriale italiano.

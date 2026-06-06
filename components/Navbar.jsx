@@ -29,9 +29,6 @@ export default function Navbar() {
       <div className="wrap nav">
         <a href="#top" className="brand" aria-label="Origine SGR — home">
           <BrandMark />
-          <span className="wm">
-            Origine<span className="sgr">SGR</span>
-          </span>
         </a>
 
         <nav className={`navlinks ${open ? "open" : ""}`} id="menu">

@@ -42,6 +42,10 @@ header.scrolled{background:rgba(245,243,238,.86);backdrop-filter:blur(14px);bord
 .brand{display:flex;align-items:center;gap:.6rem;font-family:'Fraunces';font-size:1.5rem;letter-spacing:.01em;font-weight:500}
 .brand .mark{width:26px;height:26px;flex:none;display:block}
 .brand .mark circle,.brand .mark path{transition:stroke .4s var(--ease)}
+/* logo image: navy/gold on light, white monochrome on dark for legibility */
+.brand-logo{height:44px;width:auto;flex:none;display:block;transition:filter .5s var(--ease)}
+header:not(.scrolled) .brand-logo{filter:brightness(0) invert(1)}
+.foot-logo{height:64px;filter:brightness(0) invert(1)}
 .brand .wm{display:flex;align-items:baseline;gap:.5rem;line-height:1}
 .brand .sgr{font-family:'Open Sans';font-size:.58rem;letter-spacing:.34em;font-weight:700;color:var(--gold-d);transform:translateY(-3px)}
 .dark .brand .sgr,footer .brand .sgr{color:var(--gold-l)}
