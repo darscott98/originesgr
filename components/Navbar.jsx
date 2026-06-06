@@ -28,7 +28,7 @@ export default function Navbar() {
     <header id="hdr" className={scrolled ? "scrolled" : ""}>
       <div className="wrap nav">
         <a href="#top" className="brand" aria-label="Origine SGR — home">
-          <BrandMark /> TEST
+          <BrandMark />
         </a>
 
         <nav className={`navlinks ${open ? "open" : ""}`} id="menu">
