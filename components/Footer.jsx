@@ -42,6 +42,10 @@ export default function Footer() {
             <address className="addr">
               Origine SGR S.p.A.
               <br />
+              Via Napo Torriani, 31 — Milano
+              <br />
+              <br />
+              <a href="mailto:info@originesgr.com">info@originesgr.com</a>
               <br />
               <a href="https://originesgr.com" target="_blank" rel="noopener noreferrer">
                 originesgr.com
@@ -57,7 +61,23 @@ export default function Footer() {
             illustrative e non costituiscono offerta al pubblico né consulenza
             finanziaria.
           </p>
-          <p className="copy">© {year} Origine SGR S.p.A.</p>
+          <div className="foot-legal">
+            <a
+              href="https://www.iubenda.com/privacy-policy/76603389#owner-and-data-controller"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Privacy Policy
+            </a>
+            <a
+              href="https://www.iubenda.com/privacy-policy/76603389/cookie-policy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Cookie Policy
+            </a>
+            <span className="copy">© {year} Origine SGR S.p.A.</span>
+          </div>
         </div>
       </div>
     </footer>

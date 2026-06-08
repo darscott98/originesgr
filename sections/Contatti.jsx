@@ -21,13 +21,8 @@ export default function Contatti() {
               <br />
               valore, <em>insieme.</em>
             </h2>
-            <a
-              className="mail reveal d2"
-              href="https://originesgr.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              originesgr.com
+            <a className="mail reveal d2" href="mailto:info@originesgr.com">
+              info@originesgr.com
             </a>
           </div>
           <div className="contact-side reveal d1">
@@ -35,6 +30,11 @@ export default function Contatti() {
               Per investitori professionali, imprenditori e partner industriali
               interessati alla piattaforma Origine.
             </p>
+            <address className="contact-addr">
+              Origine SGR S.p.A.
+              <br />
+              Via Napo Torriani, 31 — Milano
+            </address>
           </div>
         </div>
       </div>

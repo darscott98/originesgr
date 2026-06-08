@@ -2,25 +2,25 @@ const sectors = [
   {
     si: "01",
     title: "AgriFood B2B & Technology",
-    img: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=700&q=70",
+    img: "/images/agrifood.png",
     alt: "Agricoltura e tecnologia",
   },
   {
     si: "02",
     title: "Technology & Business Transformation",
-    img: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=700&q=70",
+    img: "/images/tech.png",
     alt: "Tecnologia e trasformazione digitale",
   },
   {
     si: "03",
     title: "Energy Transition & Related Services",
-    img: "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=700&q=70",
+    img: "/images/energy.png",
     alt: "Transizione energetica",
   },
   {
     si: "04",
     title: "Aerospace, Defense & Safety",
-    img: "https://images.unsplash.com/photo-1517976487492-5750f3195933?auto=format&fit=crop&w=700&q=70",
+    img: "/images/defense.png",
     alt: "Aerospazio e difesa",
   },
 ];
