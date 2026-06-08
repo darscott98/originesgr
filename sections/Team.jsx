@@ -1,3 +1,5 @@
+import TeamMember from "@/components/TeamMember";
+
 const members = [
   {
     ini: "RS",
@@ -64,23 +66,8 @@ export default function Team() {
         </div>
 
         <div className="team-grid">
-          {members.map((member, i) => (
-            <div
-              key={member.name}
-              className={`member${member.bio ? " expandable" : ""} reveal${
-                i ? ` d${i}` : ""
-              }`}
-              tabIndex={member.bio ? 0 : undefined}
-            >
-              <div className="pic">
-                <div className="ini">{member.ini}</div>
-              </div>
-              <div className="info">
-                <h4>{member.name}</h4>
-                <span className="role">{member.role}</span>
-                {member.bio && <p className="bio">{member.bio}</p>}
-              </div>
-            </div>
+          {members.map((member) => (
+            <TeamMember key={member.name} member={member} />
           ))}
         </div>
 

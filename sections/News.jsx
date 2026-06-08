@@ -4,6 +4,12 @@ const news = [
     title: "Al via Origine SGR.",
     href: "https://financecommunity.it/al-via-origine-sgr/",
   },
+  {
+    date: "Rassegna stampa",
+    title:
+      "Al via Origine SGR, nuova società di gestione di fondi di private equity e venture capital.",
+    href: "https://bebeez.it/private-equity/al-via-origine-sgr-nuova-societa-di-gestione-di-fondi-di-private-equity-e-venture-capital/",
+  },
 ];
 
 export default function News() {

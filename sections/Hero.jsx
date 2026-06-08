@@ -4,10 +4,7 @@ export default function Hero() {
   return (
     <section className="hero" id="top">
       <div className="hero-photo" aria-hidden="true">
-        <img
-          src="https://images.unsplash.com/photo-1431576901776-e539bd916ba2?auto=format&fit=crop&w=2000&q=70"
-          alt=""
-        />
+        <img src="/images/rome-hero.png" alt="" />
       </div>
       <div className="hero-bg" />
       <div className="hero-arcs" aria-hidden="true">
