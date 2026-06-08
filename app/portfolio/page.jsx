@@ -37,13 +37,13 @@ export default function PortfolioPage() {
           <div className="wrap">
             <span className="eyebrow reveal">Portfolio</span>
             <h1 className="reveal d1">
-              Le menti che innovano aprono <em>nuovi orizzonti</em>.
+              Origine <em>VC Funds</em>.
             </h1>
             <p className="reveal d2">
-              Il nostro portafoglio d'investimento: le società e i progetti che
-              sosteniamo nei segmenti Technology, MedTech e Life Sciences, frutto
-              di un'attività di origination proprietaria lungo l'intero ciclo di
-              vita.
+              Il portafoglio del fondo di Venture Capital consiste in
+              partecipazioni di minoranza in startup internazionali,
+              primariamente nel settore healthcare e — in misura minore —
+              digital.
             </p>
             <div className="pf-metrics reveal d3">
               <div className="pf-metric">
@@ -51,12 +51,8 @@ export default function PortfolioPage() {
                 <div className="l">Società in portafoglio</div>
               </div>
               <div className="pf-metric">
-                <div className="v">{portfolioTotals.areas}</div>
-                <div className="l">Aree d'investimento</div>
-              </div>
-              <div className="pf-metric">
-                <div className="v">Multi-exit</div>
-                <div className="l">Track record di cessioni</div>
+                <div className="v">Minoranza</div>
+                <div className="l">Partecipazioni in startup internazionali</div>
               </div>
             </div>
           </div>

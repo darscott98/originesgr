@@ -1,18 +1,18 @@
 const pillars = [
   {
     num: "01 / Pilastro",
-    title: "Expertise dei team d'investimento",
-    body: "Team con competenze uniche e distintive nella gestione di operazioni complesse e nell'individuazione di opportunità strategiche ad alto potenziale.",
+    title: "Expertise dei Team di Investimento",
+    body: "Team di investimento con competenze uniche e distintive nella gestione di operazioni complesse e nell'individuazione di opportunità strategiche.",
   },
   {
     num: "02 / Pilastro",
-    title: "Origination proprietaria",
-    body: "Grazie al network istituzionale e imprenditoriale individuiamo e promuoviamo opportunità proprietarie fondate su solidi razionali industriali. Ogni deal è seguito dai nostri operating partner.",
+    title: "Origination",
+    body: "Grazie al network istituzionale e imprenditoriale Origine riesce ad individuare e promuovere opportunità d'investimento proprietarie, fondate su solidi razionali strategici industriali. Ogni deal è seguito dai nostri operating partners che supportano sia l'origination sia la crescita delle società investite.",
   },
   {
     num: "03 / Pilastro",
-    title: "Asset management attivo",
-    body: "La nostra rete di imprenditori di successo affianca il team nella creazione di valore lungo l'intero ciclo, con competenze operative, visione strategica e accesso privilegiato a relazioni industriali.",
+    title: "Asset management",
+    body: "La forza di Origine risiede anche nella sua rete di imprenditori di successo, che affiancano il team nell'individuazione delle opportunità e nella creazione di valore lungo l'intero ciclo di investimento, apportando competenze operative, visione strategica e accesso privilegiato a relazioni industriali di primo livello.",
   },
 ];
 
@@ -26,12 +26,12 @@ export default function Intro() {
           </h2>
           <p className="reveal d1">
             Origine sviluppa una piattaforma d'investimento multi-asset dedicata
-            ai private markets — già attiva nel Private Equity e nel Venture
-            Capital, e in fase di sviluppo e consolidamento in Real Estate,
-            Infrastructure e Private Debt. Combiniamo eccellenza gestionale,
-            governance rigorosa e competenze industriali per sostenere la
-            crescita dell'economia reale e generare rendimenti sostenibili nel
-            tempo.
+            agli investimenti nei private markets, già attiva nelle asset
+            classes del Private Equity e Venture Capital e in fase di sviluppo e
+            consolidamento in quelle del Real Estate, Infrastructure e Private
+            Debt. Origine SGR combina eccellenza gestionale, rigorosa governance
+            e competenze industriali, con l'obiettivo di sostenere la crescita
+            dell'economia reale e generare rendimenti sostenibili nel tempo.
           </p>
         </div>
         <div className="pillars">

@@ -22,7 +22,7 @@ export default function Footer() {
               <BrandMark className="brand-logo foot-logo" />
             </a>
             <p className="statement">
-              Capitale e competenza, alle origini del valore industriale italiano.
+              Piattaforma d'investimento multi-asset dedicata ai private markets.
             </p>
           </div>
 
@@ -30,7 +30,6 @@ export default function Footer() {
             <h4>Navigazione</h4>
             <ul>
               <li><a href="/#societa">Società</a></li>
-              <li><a href="/#mercato">Mercato</a></li>
               <li><a href="/#fondi">Fondi</a></li>
               <li><a href="/#esg">ESG</a></li>
               <li><a href="/#team">Team</a></li>
@@ -43,12 +42,10 @@ export default function Footer() {
             <address className="addr">
               Origine SGR S.p.A.
               <br />
-              Via Monte Napoleone, 20121 Milano
               <br />
-              <br />
-              <a href="mailto:info@originesgr.it">info@originesgr.it</a>
-              <br />
-              <a href="tel:+390200000000">+39 02 0000 0000</a>
+              <a href="https://originesgr.com" target="_blank" rel="noopener noreferrer">
+                originesgr.com
+              </a>
             </address>
           </div>
         </div>
@@ -57,9 +54,8 @@ export default function Footer() {
           <p className="disc">
             Origine SGR S.p.A. — Società di Gestione del Risparmio. Le
             informazioni contenute in questo sito hanno finalità esclusivamente
-            illustrative e non costituiscono offerta al pubblico, sollecitazione
-            all'investimento né consulenza finanziaria. Gli investimenti nei
-            fondi sono riservati a investitori professionali.
+            illustrative e non costituiscono offerta al pubblico né consulenza
+            finanziaria.
           </p>
           <p className="copy">© {year} Origine SGR S.p.A.</p>
         </div>

@@ -199,6 +199,23 @@ section{position:relative}
 .stat .v{font-family:'Fraunces';font-size:clamp(2.1rem,3.8vw,3rem);color:var(--ink);font-weight:500;line-height:.98;letter-spacing:-.02em}
 .stat .l{margin-top:.85rem;font-size:.84rem;color:var(--paper-soft);letter-spacing:.01em;line-height:1.45}
 
+/* funds + key-terms on dark */
+.dark .funds{border-top-color:var(--line)}
+.dark .fund-row{border-bottom-color:var(--line)}
+.dark .fund-row h3{color:var(--white)}
+.dark .fund-row p{color:#aeafb2}
+.dark .fund-meta .big{color:var(--white)}
+.dark .fund-meta small{color:#aeafb2}
+.dark .tag.live{color:var(--gold-l)}
+.dark .tag.scout{color:var(--soft)}
+.dark .stats{border-top-color:var(--gold)}
+.dark .stat{border-right-color:var(--line)}
+.dark .stat .v{color:var(--white)}
+.dark .stat .l{color:#aeafb2}
+.dark .stat:hover{background:rgba(226,192,116,.06)}
+.dark .stat:nth-child(-n+2){border-bottom-color:var(--line)}
+.dark .stat{border-bottom-color:var(--line)}
+
 /* ---------- SECTORS ---------- */
 .sectors{display:grid;grid-template-columns:repeat(4,1fr);gap:1.1rem;margin-top:2.5rem}
 .sector{position:relative;aspect-ratio:3/4;border:1px solid var(--line);overflow:hidden;background:var(--char);display:flex;flex-direction:column;justify-content:flex-end;padding:1.6rem;transition:transform .55s var(--ease),border-color .55s var(--ease)}

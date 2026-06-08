@@ -1,118 +1,83 @@
 // Plain data module (no "use client") so both the server page and the client
 // explorer can import the real values — a client module would only hand the
 // server a reference, not the data.
+//
+// Source of truth: "Website materials" document — Innogest Capital II / IPGEST
+// portfolio held under Origine VC Funds. Each entry uses the document's own
+// company name, description, investment date and stake. No invented detail.
 
-export const tech = [
+export const medtech = [
   {
-    name: "Digitouch / Social Platform",
-    desc: "Content management, social media and community management platform for corporate customers.",
-    status: "Ceduta a Digitouch S.p.A. — 2015",
+    name: "BetaGlue Technologies",
+    desc: "Società medtech che sviluppa un trattamento radioterapico loco-regionale per tumori solidi non resecabili. La sua tecnologia proprietaria consiste in un composto iniettato tramite un dispositivo medico dedicato che consente la radioterapia intratumorale mediante microsfere di Ittrio-90.",
+    status: "Q3 2016 · Partecipazione 15,5%",
   },
   {
-    name: "Silicon Biosystems",
-    desc: "Soluzioni nel campo delle tecnologie lab-on-a-chip, per test di biologia cellulare miniaturizzati in ambito oncologico e di analisi prenatale.",
-    status: "Ceduta a Menarini — 2013",
+    name: "CVLab",
+    desc: "Venture builder focalizzato sull'innovazione cardiovascolare, nato dalla collaborazione tra Innogest, imprenditori seriali e investitori specializzati nel settore cardiovascolare. Oggi CVLab include quattro progetti: Recross, Dyverto, Kapto e Fideliomed.",
+    status: "Q4 2016 · Partecipazione 43,2%",
   },
   {
-    name: "E-Security Intelligence",
-    desc: "Società attiva nel mercato dell'e-security; prodotto principale per investigazioni informatiche e raccolta di intelligence per forze dell'ordine e agenzie di sicurezza.",
+    name: "Empatica",
+    desc: "Società spin-off del MIT che sviluppa dispositivi indossabili di qualità medicale e software basato sull'AI per il monitoraggio remoto dei pazienti, a supporto del rilevamento e della gestione di condizioni neurologiche come l'epilessia e altre malattie croniche.",
+    status: "Q4 2016 · Partecipazione 14,3%",
   },
   {
-    name: "SingularID",
-    desc: "Piattaforma micro/nanotecnologica che previene la contraffazione e la diversione di prodotti nel mercato grigio in numerosi settori.",
+    name: "GreenBone Ortho",
+    desc: "Società biomedica italiana che sviluppa soluzioni innovative per la rigenerazione ossea, con materiali avanzati bio-ispirati per sostituti ossei derivati da strutture naturali, progettati per supportare e accelerare la guarigione di difetti ossei complessi.",
+    status: "Q2 2017 · Partecipazione 10,8%",
   },
   {
-    name: "Mobango",
-    desc: "Community online dedicata alla condivisione gratuita di contenuti generati dagli utenti per dispositivi mobili.",
-    status: "Ceduta a operatore indiano",
+    name: "Pi-Cardia",
+    desc: "Società israeliana di dispositivi medici focalizzata su soluzioni catetere-based per il trattamento delle malattie valvolari cardiache strutturali. Le sue tecnologie ShortCut™ e Leaflex™ sono progettate per le procedure cardiache minimamente invasive, in particolare per i pazienti sottoposti a TAVR.",
+    status: "Q3 2015 · Partecipazione 2,2%",
   },
   {
-    name: "Beintoo",
-    desc: "Piattaforma di engagement online-to-offline per brand e retailer, basata su tecnologie cross-device all'avanguardia.",
+    name: "Anaconda Biomed",
+    desc: "Società spagnola di dispositivi medici specializzata in soluzioni avanzate per il trattamento dell'ictus ischemico acuto. Fondata a Barcellona nel 2015, sviluppa tecnologie di trombectomia meccanica di nuova generazione; la sua innovazione di punta è l'ANA Funnel Catheter.",
+    status: "Q3 2016 · Partecipazione 21,9%",
   },
   {
-    name: "DietToGo",
-    desc: "Consegna di pasti dietetici gourmet, orientata al raggiungimento concreto degli obiettivi di dimagrimento dei clienti.",
+    name: "Newronika",
+    desc: "Società medtech italiana con sede a Milano che sviluppa sistemi avanzati di neurostimolazione per disturbi neurologici, in particolare il morbo di Parkinson, con tecnologie di stimolazione cerebrale profonda adattiva (aDBS) attraverso la piattaforma AlphaDBS.",
+    status: "Q4 2015 · Partecipazione 26,49%",
   },
   {
-    name: "MBooster",
-    desc: "Holding che aggrega PMI con potenziale di crescita nei nuovi mercati digitali e startup con progetti innovativi e scalabili.",
-  },
-  {
-    name: "Jatropha BioOil",
-    desc: "Tecnologia che separa le tossine dai frutti di Jatropha, ottenendo olio commestibile, farina proteica per mangimi e principi bioattivi.",
-  },
-  {
-    name: "40South Energy",
-    desc: "Sistema di conversione dell'energia da onde e maree, un'innovazione tecnologica dirompente nel settore dell'energia marina.",
-  },
-  {
-    name: "THRON",
-    desc: "Piattaforma di content communication intelligente in tempo reale per controllare, distribuire e misurare i contenuti su tutti i canali digitali.",
-  },
-  {
-    name: "Drexcode",
-    desc: "Piattaforma online per il noleggio di abiti di lusso, con un catalogo di capi high-end delle ultime collezioni.",
-  },
-  {
-    name: "Prestiamoci",
-    desc: "Piattaforma di peer-to-peer lending che connette direttamente chi cerca un prestito a chi ha capitale da investire.",
-  },
-  {
-    name: "MioAssicuratore",
-    desc: "Broker assicurativo personale online, leader in Italia nei segmenti no-motor.",
-  },
-  {
-    name: "Soul-K",
-    desc: "Piattaforma per professionisti della ristorazione che consegna pasti pronti o semilavorati entro 24 ore.",
-  },
-  {
-    name: "Digital Magics",
-    desc: "Tra i principali incubatori italiani per startup innovative e scaleup digitali.",
-  },
-  {
-    name: "SardexPay",
-    desc: "Sistema di credito e pagamento complementare basato su unità di conto, progettato per generare liquidità aggiuntiva e risparmi negli scambi commerciali.",
+    name: "Angiodroid",
+    desc: "Società italiana di dispositivi medici che sviluppa sistemi iniettori automatizzati di CO₂ per procedure di imaging vascolare, impiegando l'anidride carbonica come agente di contrasto alternativo allo iodio, in particolare per pazienti con insufficienza renale o allergie al mezzo di contrasto.",
+    status: "Q2 2015 · Partecipazione 6,8%",
   },
 ];
 
-export const med = [
+export const digital = [
   {
-    name: "IGEA",
-    desc: "Approccio innovativo al trattamento dei tumori cutanei e sottocutanei tramite elettroporazione clinica ed elettrochemioterapia.",
+    name: "THRON",
+    desc: "Società tecnologica italiana specializzata in soluzioni di Digital Asset Management (DAM) e customer engagement. La sua piattaforma basata sull'AI consente alle aziende di centralizzare, organizzare e distribuire asset digitali in modo efficiente su più canali.",
+    status: "Q2 2014 · Partecipazione 11,9%",
   },
   {
-    name: "Renovacor",
-    desc: "Sviluppo di terapie geniche trasformative per le malattie cardiovascolari.",
+    name: "SardexPay",
+    desc: "Società fintech italiana che fornisce soluzioni di pagamento digitale e credito mutuale per supportare le imprese locali e le economie regionali. Originata dal circuito Sardex in Sardegna, consente alle PMI di scambiare beni e servizi attraverso sistemi di valuta complementare.",
+    status: "Q2 2016 · Partecipazione 12,9%",
   },
   {
-    name: "Affera",
-    desc: "Soluzioni innovative per il trattamento delle aritmie cardiache.",
+    name: "MioAssicuratore",
+    desc: "Piattaforma e broker assicurativo focalizzato su molteplici verticali — auto, nautica, salute e animali domestici — che aiuta i clienti a trovare, confrontare, acquistare e gestire polizze in modo più rapido e semplice. La società è incubata da H-Farm e Pi Campus.",
+    status: "Q3 2018 · Partecipazione 25,4%",
   },
   {
-    name: "EryDel",
-    desc: "Piattaforma di drug delivery basata sull'uso degli eritrociti del paziente come veicolo per farmaci e altre molecole.",
-  },
-  {
-    name: "AtriCath",
-    desc: "Catetere di ablazione one-shot best-in-class per il trattamento della fibrillazione atriale.",
-  },
-  {
-    name: "AngioDroid",
-    desc: "Sistema di iniezione per angiografia a CO₂, capace di minimizzare il dolore del paziente e i rischi di iniezione.",
-  },
-  {
-    name: "PiCardia",
-    desc: "Dispositivo transcatetere low-profile per il trattamento della stenosi aortica.",
+    name: "Soulkitchen",
+    desc: "Società italiana di food-tech con sede a Milano che sviluppa ingredienti semi-lavorati e soluzioni alimentari pronte all'uso per ristoranti e retail, ottimizzando la produzione alimentare attraverso processi industrializzati e data-driven.",
+    status: "Q1 2018 · Partecipazione 18,3%",
   },
 ];
 
 export const tabs = [
-  { id: "tech", label: "Technology", items: tech },
-  { id: "med", label: "MedTech & Life Sciences", items: med },
+  { id: "medtech", label: "MedTech & Life Sciences", items: medtech },
+  { id: "digital", label: "Digital", items: digital },
 ];
 
 export const portfolioTotals = {
-  total: tech.length + med.length,
+  total: medtech.length + digital.length,
   areas: tabs.length,
 };

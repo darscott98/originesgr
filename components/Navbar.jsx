@@ -5,12 +5,11 @@ import BrandMark from "./BrandMark";
 
 const links = [
   { label: "Società", href: "/#societa" },
-  { label: "Mercato", href: "/#mercato" },
   { label: "Fondi", href: "/#fondi" },
-  { label: "ESG", href: "/#esg" },
   { label: "Team", href: "/#team" },
+  { label: "Portafoglio", href: "/portfolio" },
+  { label: "ESG", href: "/#esg" },
   { label: "News", href: "/#news" },
-  { label: "Portfolio", href: "/portfolio" },
 ];
 
 export default function Navbar() {

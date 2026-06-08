@@ -34,7 +34,7 @@ const terms = [
 
 export default function Fondi() {
   return (
-    <section className="panel" id="fondi">
+    <section className="panel dark" id="fondi">
       <div className="wrap">
         <div className="sec-head">
           <h2 className="reveal">Fondi in gestione</h2>

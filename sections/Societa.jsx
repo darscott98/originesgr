@@ -12,19 +12,19 @@ export default function Societa() {
               Ispirata a modelli consolidati nei principali gruppi di
               investimento internazionali, Origine sviluppa una piattaforma
               multi-asset che integra governance centralizzata, accesso a
-              opportunità proprietarie e competenze specialistiche dei diversi
-              team d'investimento.
+              opportunità proprietarie e competenze specialistiche dei vari team
+              d'investimento.
             </p>
             <p className="reveal d2">
-              Un approccio che genera efficienze di scala, supporta strategie
-              personalizzate e consente di intercettare opportunità distintive
-              nei diversi segmenti di mercato.
+              Un approccio che crea efficienze di scala, supporta la definizione
+              di strategie personalizzate e consente di intercettare opportunità
+              distintive nei diversi segmenti di mercato.
             </p>
             <p className="reveal d3">
-              Origine è costituita per operare come piattaforma unificata di
-              investimento per il capitale professionale italiano, secondo
-              standard internazionali e con un forte radicamento nelle
-              specificità del Paese.
+              Origine è stata pertanto costituita per operare come piattaforma
+              unificata di investimento per il capitale professionale italiano,
+              operando secondo standard internazionali e mantenendo al contempo
+              un forte radicamento nelle specificità e nelle esigenze del Paese.
             </p>
           </div>
           <div className="about-vis reveal d2">
@@ -33,7 +33,7 @@ export default function Societa() {
               alt="Architettura istituzionale"
             />
             <div className="frame" />
-            <div className="cap">Origine SGR S.p.A. — Milano</div>
+            <div className="cap">Origine SGR S.p.A.</div>
           </div>
         </div>
       </div>

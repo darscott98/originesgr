@@ -37,8 +37,9 @@ export default function Hero() {
         </h1>
         <p className="hero-lede reveal d2">
           Uniamo capitali privati e istituzionali con competenze industriali e
-          finanziarie di prim'ordine, per creare valore sostenibile e rafforzare
-          il sistema imprenditoriale italiano e la sua internazionalizzazione.
+          finanziarie, di prim'ordine, per creare valore sostenibile e
+          rafforzare il sistema imprenditoriale italiano e la sua
+          internazionalizzazione.
         </p>
         <div className="hero-actions reveal d3">
           <Button href="#fondi" variant="gold" arrow>

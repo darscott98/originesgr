@@ -27,15 +27,14 @@ const sectors = [
 
 export default function Settori() {
   return (
-    <section className="panel dark">
+    <section className="panel">
       <div className="wrap">
         <div className="sec-head">
           <h2 className="reveal">Settori target</h2>
           <p className="reveal d1">
-            Quattro verticali strategici per l'autonomia e la competitività
-            industriale del sistema economico italiano ed europeo, dove
-            digitalizzazione, transizione energetica e salute saranno cruciali
-            per la prosperità futura.
+            Quattro verticali strategici su cui il fondo concentra gli
+            investimenti, a rafforzamento della competitività e dell'autonomia
+            industriale del sistema economico italiano ed europeo.
           </p>
         </div>
         <div className="sectors">

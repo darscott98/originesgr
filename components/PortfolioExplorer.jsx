@@ -45,7 +45,7 @@ function Card({ item, index }) {
 }
 
 export default function PortfolioExplorer() {
-  const [active, setActive] = useState("tech");
+  const [active, setActive] = useState(tabs[0].id);
 
   return (
     <section className="pf-section">
