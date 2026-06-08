@@ -176,8 +176,8 @@ section{position:relative}
 
 /* ---------- FUNDS (light theme) ---------- */
 .funds{display:flex;flex-direction:column;border-top:1px solid var(--paper-line)}
-.fund-row{display:grid;grid-template-columns:.55fr 1.7fr .9fr;gap:2rem;padding:2.4rem 0;border-bottom:1px solid var(--paper-line);align-items:center;transition:padding .45s var(--ease),background .45s var(--ease)}
-.fund-row:hover{padding-left:1.2rem}
+.fund-row{display:grid;grid-template-columns:.55fr 1.7fr .9fr;gap:2rem;padding:2.4rem 0;border-bottom:1px solid var(--paper-line);align-items:center;transition:transform .45s var(--ease),background .45s var(--ease)}
+.fund-row:hover{transform:translateX(1.2rem)}
 .fund-row .tag{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;font-weight:700}
 .tag.live{color:var(--gold-d)}
 .tag.exit{color:#5d847e}
