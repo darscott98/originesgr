@@ -9,7 +9,7 @@ function Card({ item, index }) {
 
   return (
     <article
-      className={`pf-card reveal${open ? " open" : ""}`}
+      className={`pf-card${open ? " open" : ""}`}
       tabIndex={0}
       onClick={toggle}
       onKeyDown={(e) => {
