@@ -63,7 +63,7 @@ export default async function Fondi() {
           </div>
           <div className="approach">
             {approach.map((a, i) => (
-              <div key={a.ix} className={`ap reveal${i ? ` d${i}` : ""}`}>
+              <div key={a.ix} className={`stat reveal${i ? ` d${i}` : ""}`}>
                 <span className="ix">{a.ix}</span>
                 <div className="v">{a.v}</div>
                 <div className="l">{a.l}</div>
