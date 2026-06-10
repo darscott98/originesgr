@@ -149,6 +149,28 @@ header:not(.scrolled) .burger span{background:var(--white)}
 .hero-scroll::after{content:"";width:1px;height:42px;background:linear-gradient(var(--gold),transparent);animation:drop 2s var(--ease) infinite}
 @keyframes drop{0%{transform:scaleY(0);transform-origin:top}45%{transform:scaleY(1);transform-origin:top}55%{transform:scaleY(1);transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
 
+/* ---------- 404 / NOT FOUND (self-contained, dark) ---------- */
+.nf{position:relative;min-height:100vh;min-height:100dvh;display:flex;align-items:center;justify-content:center;text-align:center;background:var(--ink);color:var(--white);overflow:hidden;padding:clamp(4rem,10vh,8rem) clamp(20px,5vw,64px)}
+.nf-arcs{position:absolute;inset:0;z-index:0;display:flex;align-items:center;justify-content:center;pointer-events:none;-webkit-mask-image:radial-gradient(60% 60% at 50% 50%,#000 16%,transparent 72%);mask-image:radial-gradient(60% 60% at 50% 50%,#000 16%,transparent 72%)}
+.nf-arcs svg{width:min(125vh,1100px);height:auto}
+.nf-arcs .ring{fill:none;stroke:var(--gold-l);stroke-width:1;vector-effect:non-scaling-stroke;opacity:var(--o);animation:ripple 9s var(--ease) infinite}
+.nf-arcs .ring:nth-of-type(1){--o:.30;animation-delay:0s}
+.nf-arcs .ring:nth-of-type(2){--o:.22;animation-delay:.55s}
+.nf-arcs .ring:nth-of-type(3){--o:.15;animation-delay:1.1s}
+.nf-arcs .ring:nth-of-type(4){--o:.10;animation-delay:1.65s}
+.nf-arcs .ring:nth-of-type(5){--o:.06;animation-delay:2.2s}
+.nf-inner{position:relative;z-index:1;max-width:46rem}
+.nf-brand{justify-content:center;margin-bottom:1.6rem;color:var(--gold-l)}
+.nf-code{display:block;font-family:'Fraunces';font-style:italic;font-weight:400;font-size:clamp(5rem,18vw,11rem);line-height:.9;color:var(--gold-l);letter-spacing:-.02em}
+.nf-title{font-size:clamp(1.8rem,4.4vw,3rem);font-weight:500;margin-top:1.1rem}
+.nf-lede{color:#aeafb2;margin-top:1.3rem;line-height:1.75;font-size:1rem}
+.nf-actions{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-top:2.4rem}
+.nf-btn{display:inline-flex;align-items:center;gap:.5em;padding:.9rem 1.95rem;border-radius:999px;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;font-weight:600;transition:background .35s var(--ease),color .35s var(--ease),border-color .35s var(--ease),transform .35s var(--ease),box-shadow .35s var(--ease)}
+.nf-btn-gold{background:var(--gold);color:var(--ink);border:1px solid var(--gold)}
+.nf-btn-gold:hover{transform:translateY(-1px);box-shadow:0 12px 26px -12px rgba(201,161,78,.6)}
+.nf-btn-ghost{border:1px solid rgba(226,192,116,.5);color:var(--gold-l)}
+.nf-btn-ghost:hover{background:var(--gold);border-color:var(--gold);color:var(--ink);transform:translateY(-1px)}
+
 /* ---------- TICKER ---------- */
 .ticker{border-top:1px solid var(--line);border-bottom:1px solid var(--line);overflow:hidden;background:var(--char)}
 .ticker-track{display:flex;gap:4rem;white-space:nowrap;padding:1.05rem 0;animation:scrollx 38s linear infinite;width:max-content}
