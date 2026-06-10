@@ -7,13 +7,20 @@ export default function TeamMember({ member }) {
   const t = useTranslations("team");
   const [open, setOpen] = useState(false);
 
+  // Initials sit underneath; the photo (when present) covers them, so a missing
+  // image gracefully falls back to the gold monogram.
+  const pic = (
+    <div className="pic">
+      <div className="ini">{member.ini}</div>
+      {member.img ? <img src={member.img} alt={member.name} loading="lazy" /> : null}
+    </div>
+  );
+
   // Members without a bio (e.g. the Assistant) are static — no toggle.
   if (!member.bio) {
     return (
       <div className="member">
-        <div className="pic">
-          <div className="ini">{member.ini}</div>
-        </div>
+        {pic}
         <div className="info">
           <h4>{member.name}</h4>
           <span className="role">{member.role}</span>
@@ -38,9 +45,7 @@ export default function TeamMember({ member }) {
         }
       }}
     >
-      <div className="pic">
-        <div className="ini">{member.ini}</div>
-      </div>
+      {pic}
       <div className="info">
         <button
           type="button"

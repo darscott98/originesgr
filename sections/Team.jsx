@@ -4,16 +4,16 @@ import TeamMember from "@/components/TeamMember";
 // Names, initials and roles are proper nouns / already in English, so they live
 // here as the single source of truth. Bios are translated and looked up by key.
 const management = [
-  { ini: "RS", name: "Roberto Sambuco", role: "CEO" },
-  { ini: "MC", name: "Marialiliana Conte", role: "CFO" },
+  { ini: "RS", name: "Roberto Sambuco", role: "CEO", img: "/images/Roberto-Sambuco.png" },
+  { ini: "MC", name: "Marialiliana Conte", role: "CFO", img: "/images/Marialiliana-Conte.png" },
   { ini: "MU", name: "Maria José Ullauri", role: "Executive Assistant" },
 ];
 
 const peTeam = [
-  { ini: "RS", name: "Roberto Sambuco", role: "Senior Partner", bioKey: "sambuco" },
-  { ini: "DC", name: "Dario Cenci", role: "Senior Partner", bioKey: "cenci" },
-  { ini: "MM", name: "Micki Mineo", role: "Investment Manager", bioKey: "mineo" },
-  { ini: "ET", name: "Edoardo Tamburelli", role: "Investment Associate", bioKey: "tamburelli" },
+  { ini: "RS", name: "Roberto Sambuco", role: "Senior Partner", bioKey: "sambuco", img: "/images/Roberto-Sambuco.png" },
+  { ini: "DC", name: "Dario Cenci", role: "Senior Partner", bioKey: "cenci", img: "/images/Dario-Cenci.png" },
+  { ini: "MM", name: "Micki Mineo", role: "Investment Manager", bioKey: "mineo", img: "/images/Micki-Mineo.png" },
+  { ini: "ET", name: "Edoardo Tamburelli", role: "Investment Associate", bioKey: "tamburelli", img: "/images/Edoardo-Tamburelli.png" },
 ];
 
 const operatingPartners = [
