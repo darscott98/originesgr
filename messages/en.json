@@ -33,13 +33,7 @@
     "scroll": "Scroll"
   },
   "ticker": {
-    "items": [
-      { "label": "Private Equity", "state": "Active" },
-      { "label": "Venture Capital", "state": "Value creation" },
-      { "label": "Real Estate", "state": "In development" },
-      { "label": "Infrastructure", "state": "In development" },
-      { "label": "Private Debt", "state": "Scouting" }
-    ]
+    "announcement": "Origine SGR launches the operations of its Private Equity fund, Origine Growth PE"
   },
   "intro": {
     "title": "A platform for Italy's private markets.",
@@ -47,7 +41,7 @@
     "pillars": [
       {
         "title": "Investment Teams' Expertise",
-        "body": "An independent investment team for every vertical in which the SGR operates, with unique and distinctive expertise and a full, exclusive focus on managing transactions and identifying strategic opportunities."
+        "body": "An independent investment team for every vertical in which the SGR operates, with unique and distinctive expertise and a full, exclusive focus on managing transactions and identifying strategic opportunities, with no other duties in the management of the SGR but with all of its support."
       },
       {
         "title": "Origination",
@@ -66,17 +60,22 @@
     "p2": "An approach that creates economies of scale, supports the definition of tailored strategies and makes it possible to capture distinctive opportunities across different market segments.",
     "p3": "Origine was therefore established to operate as a unified investment platform for Italian institutional and private capital, working to international standards while maintaining strong roots in the specific features and needs of the country.",
     "imgAlt": "Institutional architecture",
-    "caption": "Origine SGR S.p.A."
+    "caption": "Origine SGR S.p.A.",
+    "boardTitle": "Board of Directors",
+    "roles": {
+      "presidente": "Chairman",
+      "consigliere": "Director"
+    }
   },
   "fondi": {
     "title": "Funds under management",
     "intro": "A constantly growing offering across the private markets, through the launch of new funds and consolidation transactions around strategic verticals for the country's economy.",
     "funds": [
       {
-        "state": "Fundraising",
+        "state": "Operational – Investment and fundraising phase",
         "title": "Origine Growth PE Fund",
         "body": "A PIR-compliant, generalist Private Equity fund with a strong focus on four strategic verticals. Growth and consolidation strategies to create sustainable value.",
-        "cat": "PIR · Private Equity"
+        "cat": "Private Equity"
       },
       {
         "state": "Divestment and value creation",
@@ -109,17 +108,20 @@
     "distinctive": [
       {
         "title": "Unique positioning",
-        "body": "A focus on specific investment verticals, supported by the team's expertise and by high-profile Operating Partners and Senior Advisors — recognised industry leaders in their respective sectors — who contribute to identifying, managing and enhancing portfolio companies, in a model that is distinctive within the Italian private equity landscape."
+        "body": "Origine Growth PE Fund stands out for its focus on specific investment verticals, supported by the team's expertise and by the involvement of high-profile Operating Partners and Senior Advisors — recognised industry leaders in their respective sectors — who contribute not only to identifying investment opportunities, but also to the management and enhancement of portfolio companies, bringing operational expertise, entrepreneurial experience and a consolidated network of relationships, in a model that is distinctive within the Italian private equity landscape."
       },
       {
-        "title": "A strong team reputation",
-        "body": "Unique expertise in managing complex transactions and identifying strategic opportunities, built on a professional collaboration consolidated over time and on broad, diversified experience in M&A transactions and entrepreneurship."
+        "title": "A strong reputation of the investment team",
+        "body": "The Origine Growth PE investment team stands out for its unique expertise in managing complex transactions and identifying strategic opportunities, leveraging a professional collaboration consolidated over time. The team combines broad, deep and diversified experience in private equity, M&A transactions and entrepreneurship, further strengthened by the contribution of professionals with solid sector expertise and proven operational experience."
       },
       {
         "title": "An active proprietary pipeline",
-        "body": "Thanks to its specialist focus and the team's expertise, the fund accesses proprietary investment opportunities in strategic sectors and high-scalability niches, often outside the traditional competitive processes."
+        "body": "Thanks to its specialist focus and the team's expertise, Origine Growth PE Fund accesses proprietary investment opportunities in strategic sectors and high-scalability niches, often outside the traditional competitive processes."
       }
-    ]
+    ],
+    "vcFocusEyebrow": "Focus — Origine VC Funds",
+    "vcFocusTitle": "Innovation and growth, in the value-creation phase.",
+    "vcFocusBody": "A Venture Capital initiative focused on innovation and growth, with particular attention to the MedTech and Life Sciences sectors, currently in the divestment and value-creation phase of its portfolio."
   },
   "esg": {
     "eyebrow": "ESG commitment",
@@ -139,6 +141,7 @@
     "groupManagement": "Management",
     "groupOperating": "Operating Partners",
     "groupAdvisors": "Senior Advisors",
+    "groupVc": "Venture Capital Team",
     "toggleShow": "Show profile",
     "toggleHide": "Hide profile",
     "bios": {
@@ -181,8 +184,6 @@
     "title": "Origine <em>VC Funds</em>.",
     "intro": "The Venture Capital fund's portfolio consists of minority stakes in international startups, primarily in the healthcare sector and — to a lesser extent — digital.",
     "metricCompaniesLabel": "Portfolio companies",
-    "metricStakeValue": "Minority",
-    "metricStakeLabel": "Stakes in international startups",
     "ctaTitle": "Let's build the next chapter, <em>together.</em>",
     "ctaButton": "Get in touch",
     "tabsAria": "Portfolio areas",

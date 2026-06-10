@@ -61,10 +61,6 @@ export default async function PortfolioPage({ params }) {
                 <div className="v">{portfolioTotals.total}</div>
                 <div className="l">{t("metricCompaniesLabel")}</div>
               </div>
-              <div className="pf-metric">
-                <div className="v">{t("metricStakeValue")}</div>
-                <div className="l">{t("metricStakeLabel")}</div>
-              </div>
             </div>
           </div>
         </section>

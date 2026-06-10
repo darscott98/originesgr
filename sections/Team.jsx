@@ -6,7 +6,7 @@ import TeamMember from "@/components/TeamMember";
 const management = [
   { ini: "RS", name: "Roberto Sambuco", role: "CEO" },
   { ini: "MC", name: "Marialiliana Conte", role: "CFO" },
-  { ini: "MU", name: "Maria José Ullauri", role: "Assistant" },
+  { ini: "MU", name: "Maria José Ullauri", role: "Executive Assistant" },
 ];
 
 const peTeam = [
@@ -22,8 +22,14 @@ const operatingPartners = [
 ];
 
 const seniorAdvisors = [
-  { ini: "GF", name: "Giorgio Furlani", role: "Senior Advisor" },
   { ini: "PG", name: "Paolo Gallo", role: "Senior Advisor" },
+  { ini: "GF", name: "Giorgio Furlani", role: "Senior Advisor" },
+  { ini: "RS", name: "Roberto Sergio", role: "Senior Advisor" },
+];
+
+const vcTeam = [
+  { ini: "LC", name: "Lorenzo Castelli", role: "Venture Capital" },
+  { ini: "MV", name: "Marco Venturelli", role: "Venture Capital" },
 ];
 
 export default async function Team() {
@@ -38,22 +44,22 @@ export default async function Team() {
         </div>
 
         <div className="team-sub">
-          <h3>{t("groupPe")}</h3>
-          <div className="ln" />
-        </div>
-        <div className="team-grid">
-          {peTeam.map((member) => (
-            <TeamMember key={`pe-${member.name}`} member={withBio(member)} />
-          ))}
-        </div>
-
-        <div className="team-sub">
           <h3>{t("groupManagement")}</h3>
           <div className="ln" />
         </div>
         <div className="team-grid">
           {management.map((member) => (
             <TeamMember key={`mg-${member.name}`} member={member} />
+          ))}
+        </div>
+
+        <div className="team-sub">
+          <h3>{t("groupPe")}</h3>
+          <div className="ln" />
+        </div>
+        <div className="team-grid">
+          {peTeam.map((member) => (
+            <TeamMember key={`pe-${member.name}`} member={withBio(member)} />
           ))}
         </div>
 
@@ -74,6 +80,16 @@ export default async function Team() {
         <div className="team-grid">
           {seniorAdvisors.map((member) => (
             <TeamMember key={`sa-${member.name}`} member={member} />
+          ))}
+        </div>
+
+        <div className="team-sub">
+          <h3>{t("groupVc")}</h3>
+          <div className="ln" />
+        </div>
+        <div className="team-grid">
+          {vcTeam.map((member) => (
+            <TeamMember key={`vc-${member.name}`} member={member} />
           ))}
         </div>
       </div>

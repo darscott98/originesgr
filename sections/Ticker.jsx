@@ -2,16 +2,16 @@ import { getTranslations } from "next-intl/server";
 
 export default async function Ticker() {
   const t = await getTranslations("ticker");
-  const items = t.raw("items");
-  // Doubled so the -50% keyframe scroll loops seamlessly.
-  const loop = [...items, ...items];
+  const announcement = t("announcement");
+  // Repeated so the -50% keyframe scroll loops seamlessly across the bar width.
+  const loop = Array.from({ length: 6 });
 
   return (
     <div className="ticker" aria-hidden="true">
       <div className="ticker-track">
-        {loop.map((item, i) => (
+        {loop.map((_, i) => (
           <span key={i}>
-            <b>{item.label}</b> {item.state}
+            <b>News</b> {announcement}
           </span>
         ))}
       </div>

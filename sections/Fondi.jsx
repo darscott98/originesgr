@@ -37,7 +37,7 @@ export default async function Fondi() {
           ))}
         </div>
 
-        <div className="fund-focus" style={{ marginTop: "var(--section-y)" }}>
+        <div className="fund-focus accent" style={{ marginTop: "var(--section-y)" }}>
           <span className="eyebrow reveal">{t("focusEyebrow")}</span>
           <div className="sec-head" style={{ marginTop: "var(--stack-gap)" }}>
             <h2
@@ -99,6 +99,19 @@ export default async function Fondi() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+
+        <div className="fund-focus" style={{ marginTop: "var(--section-y)" }}>
+          <span className="eyebrow reveal">{t("vcFocusEyebrow")}</span>
+          <div className="sec-head" style={{ marginTop: "var(--stack-gap)" }}>
+            <h2
+              className="reveal d1"
+              style={{ fontSize: "clamp(1.7rem,3.4vw,2.6rem)" }}
+            >
+              {t("vcFocusTitle")}
+            </h2>
+            <p className="reveal d2">{t("vcFocusBody")}</p>
           </div>
         </div>
       </div>

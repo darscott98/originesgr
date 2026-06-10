@@ -128,9 +128,9 @@ header:not(.scrolled) .burger span{background:var(--white)}
 .hero-arcs .ring:nth-of-type(7){--o:.05;animation-delay:3.3s}
 .hero-arcs .rings{transform-box:fill-box;transform-origin:center;animation:ring-pulse 6.5s ease-in-out infinite}
 .hero-arcs .origin{fill:var(--gold-l);transform-box:fill-box;transform-origin:center;filter:drop-shadow(0 0 7px rgba(226,192,116,.85));animation:origin-pulse 6.5s ease-in-out infinite}
-@keyframes ripple{0%,58%,100%{opacity:var(--o)}26%{opacity:calc(var(--o) + .34)}}
-/* synchronized breathe: the ring set expands ~3% while the origin glows */
-@keyframes ring-pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.03)}}
+@keyframes ripple{0%,58%,100%{opacity:var(--o)}26%{opacity:calc(var(--o) + .55)}}
+/* synchronized breathe: the ring set expands ~6% while the origin glows */
+@keyframes ring-pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
 @keyframes origin-pulse{0%,100%{opacity:.65;transform:scale(1)}50%{opacity:1;transform:scale(1.6)}}
 .hero .wrap{position:relative;z-index:2;width:100%;color:var(--white)}
 .hero h1{font-size:clamp(2.1rem,6.3vw,5.4rem);max-width:24ch;font-weight:500;color:var(--white);text-wrap:balance}
@@ -228,6 +228,16 @@ section[id]{scroll-margin-top:88px}
 .about-vis:hover .frame{inset:12px}
 .about-vis .cap{position:absolute;left:24px;bottom:22px;right:24px;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:#d9dadd;z-index:3}
 
+/* board of directors (Consiglio d'Amministrazione) */
+.board{margin-top:var(--section-y)}
+.board-head{display:flex;align-items:center;gap:1.4rem;margin-bottom:1.6rem}
+.board-head h3{font-family:'Fraunces';font-size:2.5rem;font-weight:400;font-style:italic;white-space:nowrap;color:var(--white)}
+.board-head .ln{height:1px;background:var(--line);flex:1}
+.board-list{border-top:1px solid var(--line)}
+.board-item{display:flex;justify-content:space-between;align-items:baseline;gap:1.5rem;padding:1.15rem 0;border-bottom:1px solid var(--line)}
+.board-item .bm-name{font-size:1.08rem;font-weight:500;color:var(--white)}
+.board-item .bm-role{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-l);font-weight:700;white-space:nowrap}
+
 /* ---------- FUNDS (light theme) ---------- */
 .funds{display:flex;flex-direction:column;border-top:1px solid var(--paper-line)}
 .fund-row{display:grid;grid-template-columns:.8fr 2.4fr auto;gap:2rem;padding:2.4rem 0;border-bottom:1px solid var(--paper-line);align-items:center;transition:transform .45s var(--ease),background .45s var(--ease)}
@@ -272,6 +282,9 @@ section[id]{scroll-margin-top:88px}
 /* ---------- FUND FOCUS (one-fund deep-dive, gold editorial spine) ---------- */
 .fund-focus{position:relative;padding-left:clamp(1.1rem,3vw,2.6rem)}
 .fund-focus::before{content:"";position:absolute;left:0;top:.5rem;bottom:.5rem;width:2px;background:var(--gold)}
+/* accented focus card — sets the Origine Growth PE deep-dive on its own tint */
+.fund-focus.accent{padding:clamp(2rem,4vw,3.4rem) clamp(1.6rem,4vw,3.4rem);background:linear-gradient(180deg,#f3ecdb,#eee5d2);border:1px solid rgba(201,161,78,.3)}
+.fund-focus.accent::before{top:0;bottom:0;width:3px}
 .focus-sub{margin-top:var(--section-y)}
 .focus-sub .eyebrow{display:block}
 .focus-sub p{margin-top:var(--stack-gap);max-width:62ch;color:var(--paper-soft);font-size:.96rem;line-height:1.62}

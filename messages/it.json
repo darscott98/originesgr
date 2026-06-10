@@ -9,7 +9,7 @@
     "societa": "Società",
     "fondi": "Fondi",
     "team": "Team",
-    "portfolio": "Portafoglio",
+    "portfolio": "Portfolio",
     "esg": "ESG",
     "news": "News",
     "contatti": "Contatti",
@@ -33,13 +33,7 @@
     "scroll": "Scorri"
   },
   "ticker": {
-    "items": [
-      { "label": "Private Equity", "state": "Attivo" },
-      { "label": "Venture Capital", "state": "In valorizzazione" },
-      { "label": "Real Estate", "state": "In sviluppo" },
-      { "label": "Infrastructure", "state": "In sviluppo" },
-      { "label": "Private Debt", "state": "In scouting" }
-    ]
+    "announcement": "Origine SGR avvia l'operatività del fondo di Private Equity, Origine Growth PE"
   },
   "intro": {
     "title": "Una piattaforma per i private markets italiani.",
@@ -47,7 +41,7 @@
     "pillars": [
       {
         "title": "Expertise dei Team di Investimento",
-        "body": "Team di investimento indipendente per ogni verticale in cui la SGR opera, con competenze uniche e distintive e una focalizzazione piena ed esclusiva nella gestione di operazioni e nell'individuazione di opportunità strategiche."
+        "body": "Team di investimento indipendente per ogni verticale in cui la SGR opera, con competenze uniche e distintive e focalizzazione piena ed esclusiva nella gestione di operazioni e nell'individuazione di opportunità strategiche, senza altri impegni nella gestione della SGR ma con tutto il suo supporto."
       },
       {
         "title": "Origination",
@@ -66,17 +60,22 @@
     "p2": "Un approccio che crea efficienze di scala, supporta la definizione di strategie personalizzate e consente di intercettare opportunità distintive nei diversi segmenti di mercato.",
     "p3": "Origine è stata pertanto costituita per operare come piattaforma unificata di investimento per il capitale istituzionale e privato italiano, operando secondo standard internazionali e mantenendo al contempo un forte radicamento nelle specificità e nelle esigenze del Paese.",
     "imgAlt": "Architettura istituzionale",
-    "caption": "Origine SGR S.p.A."
+    "caption": "Origine SGR S.p.A.",
+    "boardTitle": "Consiglio d'Amministrazione",
+    "roles": {
+      "presidente": "Presidente",
+      "consigliere": "Consigliere"
+    }
   },
   "fondi": {
     "title": "Fondi in gestione",
     "intro": "Un'offerta in costante crescita lungo i private markets, tramite il lancio di nuovi fondi e operazioni di consolidamento attorno a verticali strategici per l'economia del Paese.",
     "funds": [
       {
-        "state": "In fase di raccolta",
+        "state": "Operativo – In fase di investimento e raccolta",
         "title": "Origine Growth PE Fund",
         "body": "Fondo di Private Equity PIR-compliant, generalista con forte concentrazione su quattro verticali strategici. Capitale flessibile a supporto di strategie di crescita e consolidamento.",
-        "cat": "PIR · Private Equity"
+        "cat": "Private Equity"
       },
       {
         "state": "In fase di disinvestimento e valorizzazione",
@@ -109,17 +108,20 @@
     "distinctive": [
       {
         "title": "Posizionamento unico",
-        "body": "Focalizzazione su specifici verticali di investimento, supportata dall'expertise del team e da Operating Partner e Senior Advisor di alto profilo — riconosciuti leader industriali nei rispettivi settori — che contribuiscono all'individuazione, alla gestione e alla valorizzazione delle società in portafoglio, in un modello distintivo nel panorama del private equity italiano."
+        "body": "Origine Growth PE Fund si distingue per la focalizzazione su specifici verticali di investimento, supportata dall'expertise del team e dal coinvolgimento di Operating Partner e Senior Advisor di alto profilo, riconosciuti leader industriali nei rispettivi settori, che contribuiscono non solo all'individuazione delle opportunità di investimento, ma anche alla gestione e alla valorizzazione delle società in portafoglio, mettendo a disposizione competenze operative, esperienza imprenditoriale e un consolidato network di relazioni, in un modello distintivo nel panorama del private equity italiano."
       },
       {
-        "title": "Solida reputazione del team",
-        "body": "Competenze uniche nella gestione di operazioni complesse e nell'individuazione di opportunità strategiche, costruite su una collaborazione professionale consolidata nel tempo e su un'esperienza ampia e diversificata in operazioni di M&A e nell'imprenditoria."
+        "title": "Solida reputazione del team d'investimento",
+        "body": "Il team di investimento di Origine Growth PE si distingue per competenze uniche nella gestione di operazioni complesse e nell'individuazione di opportunità strategiche, facendo leva su una collaborazione professionale consolidata nel tempo. Il team combina un'esperienza ampia, profonda e diversificata nel private equity, nelle operazioni di M&A e nell'imprenditoria, ulteriormente rafforzata dal contributo di professionisti con solide competenze settoriali e una comprovata esperienza operativa."
       },
       {
         "title": "Pipeline proprietaria attiva",
-        "body": "Grazie al focus specialistico e alle competenze del team, il fondo accede a opportunità di investimento proprietarie in comparti strategici e nicchie ad alto potenziale di scalabilità, spesso al di fuori dei tradizionali processi competitivi."
+        "body": "Grazie al proprio focus specialistico e alle competenze del team, Origine Growth PE Fund accede a opportunità di investimento proprietarie in settori strategici e nicchie ad alto potenziale di scalabilità, spesso al di fuori dei tradizionali processi competitivi."
       }
-    ]
+    ],
+    "vcFocusEyebrow": "Focus — Origine VC Funds",
+    "vcFocusTitle": "Innovazione e crescita, in fase di valorizzazione.",
+    "vcFocusBody": "Un'iniziativa di Venture Capital focalizzata su innovazione e crescita, con una particolare attenzione ai settori MedTech e Life Sciences, attualmente in fase di disinvestimento e valorizzazione del portafoglio."
   },
   "esg": {
     "eyebrow": "Impegno ESG",
@@ -139,6 +141,7 @@
     "groupManagement": "Management",
     "groupOperating": "Operating Partners",
     "groupAdvisors": "Senior Advisors",
+    "groupVc": "Venture Capital Team",
     "toggleShow": "Mostra profilo",
     "toggleHide": "Nascondi profilo",
     "bios": {
@@ -181,8 +184,6 @@
     "title": "Origine <em>VC Funds</em>.",
     "intro": "Il portafoglio del fondo di Venture Capital consiste in partecipazioni di minoranza in startup internazionali, primariamente nel settore healthcare e — in misura minore — digital.",
     "metricCompaniesLabel": "Società in portafoglio",
-    "metricStakeValue": "Minoranza",
-    "metricStakeLabel": "Partecipazioni in startup internazionali",
     "ctaTitle": "Costruiamo il prossimo capitolo, <em>insieme.</em>",
     "ctaButton": "Contattaci",
     "tabsAria": "Aree del portafoglio",
