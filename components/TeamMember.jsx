@@ -1,8 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 export default function TeamMember({ member }) {
+  const t = useTranslations("team");
   const [open, setOpen] = useState(false);
 
   // Members without a bio (e.g. the Assistant) are static — no toggle.
@@ -43,7 +45,7 @@ export default function TeamMember({ member }) {
         <button
           type="button"
           className="member-toggle"
-          aria-label={open ? "Nascondi profilo" : "Mostra profilo"}
+          aria-label={open ? t("toggleHide") : t("toggleShow")}
           aria-expanded={open}
           onClick={(e) => {
             e.stopPropagation();

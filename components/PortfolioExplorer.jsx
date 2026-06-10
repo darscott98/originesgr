@@ -1,9 +1,11 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import { tabs } from "./portfolioData";
 
 function Card({ item, index }) {
+  const t = useTranslations("portfolio");
   const [open, setOpen] = useState(false);
   const toggle = () => setOpen((v) => !v);
 
@@ -24,7 +26,7 @@ function Card({ item, index }) {
         <button
           type="button"
           className="pf-toggle"
-          aria-label={open ? "Nascondi dettagli" : "Mostra dettagli"}
+          aria-label={open ? t("toggleHide") : t("toggleShow")}
           aria-expanded={open}
           onClick={(e) => {
             e.stopPropagation();
@@ -37,20 +39,21 @@ function Card({ item, index }) {
       </div>
       <h3 className="pf-name">{item.name}</h3>
       <div className="pf-body">
-        <p className="pf-desc">{item.desc}</p>
-        {item.status && <span className="pf-status">{item.status}</span>}
+        <p className="pf-desc">{t(`companies.${item.key}.desc`)}</p>
+        <span className="pf-status">{t(`companies.${item.key}.status`)}</span>
       </div>
     </article>
   );
 }
 
 export default function PortfolioExplorer() {
+  const t = useTranslations("portfolio");
   const [active, setActive] = useState(tabs[0].id);
 
   return (
     <section className="pf-section">
       <div className="wrap">
-        <div className="pf-tabs" role="tablist" aria-label="Aree del portafoglio">
+        <div className="pf-tabs" role="tablist" aria-label={t("tabsAria")}>
           {tabs.map((tab) => (
             <button
               key={tab.id}
@@ -61,7 +64,7 @@ export default function PortfolioExplorer() {
               aria-controls={`panel-${tab.id}`}
               onClick={() => setActive(tab.id)}
             >
-              {tab.label}
+              {t(`tabs.${tab.id}`)}
               <span className="ct">{tab.items.length}</span>
             </button>
           ))}

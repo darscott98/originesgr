@@ -6,6 +6,9 @@ import { useEffect } from "react";
 // Rendered once near the root; it wires up observers against the static markup.
 export default function Reveal() {
   useEffect(() => {
+    // The app hydrated, so cancel the no-JS/failed-hydration failsafe in layout.jsx.
+    clearTimeout(window.__revealFailsafe);
+
     const reduce = window.matchMedia(
       "(prefers-reduced-motion: reduce)"
     ).matches;

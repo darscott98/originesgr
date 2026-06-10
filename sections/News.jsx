@@ -1,33 +1,27 @@
-const news = [
-  {
-    date: "Comunicato stampa",
-    title: "Al via Origine SGR.",
-    href: "https://financecommunity.it/al-via-origine-sgr/",
-  },
-  {
-    date: "Rassegna stampa",
-    title:
-      "Al via Origine SGR, nuova società di gestione di fondi di private equity e venture capital.",
-    href: "https://bebeez.it/private-equity/al-via-origine-sgr-nuova-societa-di-gestione-di-fondi-di-private-equity-e-venture-capital/",
-  },
+import { getTranslations } from "next-intl/server";
+
+// External article URLs are structural and pair with the translated date/title
+// labels by index.
+const newsLinks = [
+  "https://financecommunity.it/al-via-origine-sgr/",
+  "https://bebeez.it/private-equity/al-via-origine-sgr-nuova-societa-di-gestione-di-fondi-di-private-equity-e-venture-capital/",
 ];
 
-export default function News() {
+export default async function News() {
+  const t = await getTranslations("news");
+  const news = t.raw("items");
   return (
-    <section className="panel" id="news">
+    <section className="panel dark" id="news">
       <div className="wrap">
         <div className="sec-head">
-          <h2 className="reveal">News</h2>
-          <p className="reveal d1">
-            Comunicati stampa e aggiornamenti istituzionali dalla costituzione di
-            Origine.
-          </p>
+          <h2 className="reveal">{t("title")}</h2>
+          <p className="reveal d1">{t("intro")}</p>
         </div>
         {news.map((item, i) => (
           <a
             key={item.title}
             className={`news-row reveal${i ? ` d${i}` : ""}`}
-            href={item.href}
+            href={newsLinks[i]}
             target="_blank"
             rel="noopener noreferrer"
           >

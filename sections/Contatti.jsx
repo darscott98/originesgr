@@ -1,6 +1,9 @@
-export default function Contatti() {
+import { getTranslations } from "next-intl/server";
+
+export default async function Contatti() {
+  const t = await getTranslations("contatti");
   return (
-    <section className="panel dark contact" id="contatti">
+    <section className="panel contact" id="contatti">
       <div className="arcs" aria-hidden="true">
         <svg viewBox="0 0 560 560" fill="none">
           <g stroke="rgba(226,192,116,.18)" strokeWidth="1" fill="none">
@@ -15,21 +18,19 @@ export default function Contatti() {
       <div className="wrap">
         <div className="contact-inner">
           <div>
-            <span className="eyebrow reveal">Contatti</span>
+            <span className="eyebrow reveal">{t("eyebrow")}</span>
             <h2 className="reveal d1">
-              Costruiamo
-              <br />
-              valore, <em>insieme.</em>
+              {t.rich("title", {
+                br: () => <br />,
+                em: (chunks) => <em>{chunks}</em>,
+              })}
             </h2>
             <a className="mail reveal d2" href="mailto:info@originesgr.com">
               info@originesgr.com
             </a>
           </div>
           <div className="contact-side reveal d1">
-            <p>
-              Per investitori professionali, imprenditori e partner industriali
-              interessati alla piattaforma Origine.
-            </p>
+            <p>{t("side")}</p>
             <address className="contact-addr">
               Origine SGR S.p.A.
               <br />

@@ -1,6 +1,10 @@
+import { getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 import BrandMark from "./BrandMark";
 
-export default function Footer() {
+export default async function Footer() {
+  const t = await getTranslations("footer");
+  const tNav = await getTranslations("nav");
   const year = new Date().getFullYear();
 
   return (
@@ -18,27 +22,25 @@ export default function Footer() {
       <div className="wrap">
         <div className="foot-top">
           <div className="foot-brand">
-            <a href="/" className="brand" aria-label="Origine SGR — home">
+            <Link href="/" className="brand" aria-label={tNav("brandHome")}>
               <BrandMark className="brand-logo foot-logo" />
-            </a>
-            <p className="statement">
-              Piattaforma d'investimento multi-asset dedicata ai private markets.
-            </p>
+            </Link>
+            <p className="statement">{t("statement")}</p>
           </div>
 
-          <nav className="foot-col" aria-label="Navigazione">
-            <h4>Navigazione</h4>
+          <nav className="foot-col" aria-label={t("navHeader")}>
+            <h4>{t("navHeader")}</h4>
             <ul>
-              <li><a href="/#societa">Società</a></li>
-              <li><a href="/#fondi">Fondi</a></li>
-              <li><a href="/#esg">ESG</a></li>
-              <li><a href="/#team">Team</a></li>
-              <li><a href="/portfolio">Portfolio</a></li>
+              <li><Link href="/#societa">{t("linkSocieta")}</Link></li>
+              <li><Link href="/#fondi">{t("linkFondi")}</Link></li>
+              <li><Link href="/#esg">{t("linkEsg")}</Link></li>
+              <li><Link href="/#team">{t("linkTeam")}</Link></li>
+              <li><Link href="/portfolio">{t("linkPortfolio")}</Link></li>
             </ul>
           </nav>
 
           <div className="foot-col">
-            <h4>Contatti</h4>
+            <h4>{t("contactsHeader")}</h4>
             <address className="addr">
               Origine SGR S.p.A.
               <br />
@@ -55,28 +57,36 @@ export default function Footer() {
         </div>
 
         <div className="foot-bottom">
-          <p className="disc">
-            Origine SGR S.p.A. — Società di Gestione del Risparmio. Le
-            informazioni contenute in questo sito hanno finalità esclusivamente
-            illustrative e non costituiscono offerta al pubblico né consulenza
-            finanziaria.
-          </p>
+          <p className="disc">{t("disclaimer")}</p>
           <div className="foot-legal">
             <a
               href="https://www.iubenda.com/privacy-policy/76603389#owner-and-data-controller"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Privacy Policy
+              {t("privacy")}
             </a>
             <a
               href="https://www.iubenda.com/privacy-policy/76603389/cookie-policy"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Cookie Policy
+              {t("cookie")}
             </a>
-            <span className="copy">© {year} Origine SGR S.p.A.</span>
+            <span className="copy">{t("copy", { year })}</span>
+            <span className="built-by">
+              {t.rich("builtBy", {
+                a: (chunks) => (
+                  <a
+                    href="https://www.worldlabs.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {chunks}
+                  </a>
+                ),
+              })}
+            </span>
           </div>
         </div>
       </div>

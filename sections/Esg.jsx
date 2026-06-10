@@ -1,41 +1,28 @@
-export default function Esg() {
+import { getTranslations } from "next-intl/server";
+
+export default async function Esg() {
+  const t = await getTranslations("esg");
+  const pills = t.raw("pills");
   return (
     <section className="panel esg" id="esg">
       <div className="wrap">
         <div className="esg-grid">
           <div className="reveal">
-            <span className="eyebrow">Impegno ESG</span>
+            <span className="eyebrow">{t("eyebrow")}</span>
             <div className="esg-mark" aria-hidden="true">
-              ESG.
+              {t("mark")}
             </div>
           </div>
           <div className="reveal d1">
-            <p>
-              I fattori ESG costituiscono una componente centrale dell'approccio
-              di investimento di Origine, affinché l'intero portafoglio abbia un
-              vantaggio competitivo strutturale. L'integrazione degli standard
-              ESG, lungo l'intero ciclo di investimento, contribuisce a
-              rafforzare la resilienza degli asset, migliorare le performance
-              operative e promuovere una crescita sostenibile nel tempo.
-            </p>
-            <p style={{ marginTop: "1.2rem" }}>
-              Crediamo fortemente che la crescita delle società di portafoglio
-              debba essere sostenibile, inclusiva e trasparente: ogni
-              investimento sarà oggetto di due diligence ESG.
-            </p>
+            <p>{t("p1")}</p>
+            <p style={{ marginTop: "1.2rem" }}>{t("p2")}</p>
             <div className="pillrow">
-              <div>
-                <b>Resilienza</b>
-                <span>Asset più solidi</span>
-              </div>
-              <div>
-                <b>Performance</b>
-                <span>Operatività migliore</span>
-              </div>
-              <div>
-                <b>Due diligence</b>
-                <span>Su ogni investimento</span>
-              </div>
+              {pills.map((pill) => (
+                <div key={pill.title}>
+                  <b>{pill.title}</b>
+                  <span>{pill.desc}</span>
+                </div>
+              ))}
             </div>
           </div>
         </div>

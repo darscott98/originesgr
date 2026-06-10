@@ -1,12 +1,8 @@
-const items = [
-  { label: "Private Equity", state: "Attivo" },
-  { label: "Venture Capital", state: "In valorizzazione" },
-  { label: "Real Estate", state: "In sviluppo" },
-  { label: "Infrastructure", state: "In sviluppo" },
-  { label: "Private Debt", state: "In scouting" },
-];
+import { getTranslations } from "next-intl/server";
 
-export default function Ticker() {
+export default async function Ticker() {
+  const t = await getTranslations("ticker");
+  const items = t.raw("items");
   // Doubled so the -50% keyframe scroll loops seamlessly.
   const loop = [...items, ...items];
 

@@ -1,3 +1,5 @@
+import { getTranslations, setRequestLocale } from "next-intl/server";
+import { routing } from "@/i18n/routing";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
@@ -5,11 +7,22 @@ import Button from "@/components/Button";
 import PortfolioExplorer from "@/components/PortfolioExplorer";
 import { portfolioTotals } from "@/components/portfolioData";
 
-export const metadata = {
-  title: "Portfolio — Origine SGR",
-  description:
-    "Il portafoglio di Origine SGR: società partecipate nei segmenti Technology, MedTech e Life Sciences.",
-};
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
+export async function generateMetadata({ params }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "meta" });
+  return {
+    title: t("portfolioTitle"),
+    description: t("portfolioDescription"),
+    alternates: {
+      canonical: `/${locale}/portfolio`,
+      languages: { it: "/it/portfolio", en: "/en/portfolio", "x-default": "/it/portfolio" },
+    },
+  };
+}
 
 function Arcs({ cx = 380, cy = 200 }) {
   return (
@@ -27,7 +40,10 @@ function Arcs({ cx = 380, cy = 200 }) {
   );
 }
 
-export default function PortfolioPage() {
+export default async function PortfolioPage({ params }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations("portfolio");
   return (
     <>
       <Navbar />
@@ -35,24 +51,19 @@ export default function PortfolioPage() {
         <section className="pf-hero" id="top">
           <Arcs />
           <div className="wrap">
-            <span className="eyebrow reveal">Portfolio</span>
+            <span className="eyebrow reveal">{t("eyebrow")}</span>
             <h1 className="reveal d1">
-              Origine <em>VC Funds</em>.
+              {t.rich("title", { em: (chunks) => <em>{chunks}</em> })}
             </h1>
-            <p className="reveal d2">
-              Il portafoglio del fondo di Venture Capital consiste in
-              partecipazioni di minoranza in startup internazionali,
-              primariamente nel settore healthcare e — in misura minore —
-              digital.
-            </p>
+            <p className="reveal d2">{t("intro")}</p>
             <div className="pf-metrics reveal d3">
               <div className="pf-metric">
                 <div className="v">{portfolioTotals.total}</div>
-                <div className="l">Società in portafoglio</div>
+                <div className="l">{t("metricCompaniesLabel")}</div>
               </div>
               <div className="pf-metric">
-                <div className="v">Minoranza</div>
-                <div className="l">Partecipazioni in startup internazionali</div>
+                <div className="v">{t("metricStakeValue")}</div>
+                <div className="l">{t("metricStakeLabel")}</div>
               </div>
             </div>
           </div>
@@ -63,11 +74,9 @@ export default function PortfolioPage() {
         <section className="pf-cta">
           <Arcs cx={160} cy={340} />
           <div className="wrap">
-            <h2>
-              Costruiamo il prossimo capitolo, <em>insieme.</em>
-            </h2>
-            <Button href="/#contatti" variant="gold" arrow>
-              Contattaci
+            <h2>{t.rich("ctaTitle", { em: (chunks) => <em>{chunks}</em> })}</h2>
+            <Button href={`/${locale}/#contatti`} variant="gold" arrow>
+              {t("ctaButton")}
             </Button>
           </div>
         </section>

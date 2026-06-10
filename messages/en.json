@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "homeTitle": "Origine SGR — Multi-asset investment platform",
+    "homeDescription": "Origine SGR brings together private and institutional capital with best-in-class industrial and financial expertise to create sustainable value and strengthen the Italian entrepreneurial system.",
+    "portfolioTitle": "Portfolio — Origine SGR",
+    "portfolioDescription": "The Origine SGR portfolio: companies held across the Technology, MedTech and Life Sciences segments."
+  },
+  "nav": {
+    "societa": "Company",
+    "fondi": "Funds",
+    "team": "Team",
+    "portfolio": "Portfolio",
+    "esg": "ESG",
+    "news": "News",
+    "contatti": "Contact",
+    "brandHome": "Origine SGR — home",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "ariaMain": "Main navigation",
+    "ariaMenu": "Menu"
+  },
+  "localeSwitcher": {
+    "label": "Change language",
+    "it": "IT",
+    "en": "EN"
+  },
+  "hero": {
+    "eyebrow": "Multi-asset investment platform",
+    "title": "Capital and expertise, at the <em>origins</em> of Italian entrepreneurial value.",
+    "lede": "We combine private and institutional capital with best-in-class industrial and financial expertise to create sustainable value and strengthen the Italian entrepreneurial system and its international growth.",
+    "ctaFunds": "Explore the funds",
+    "ctaVision": "Our vision",
+    "scroll": "Scroll"
+  },
+  "ticker": {
+    "items": [
+      { "label": "Private Equity", "state": "Active" },
+      { "label": "Venture Capital", "state": "Value creation" },
+      { "label": "Real Estate", "state": "In development" },
+      { "label": "Infrastructure", "state": "In development" },
+      { "label": "Private Debt", "state": "Scouting" }
+    ]
+  },
+  "intro": {
+    "title": "A platform for Italy's private markets.",
+    "body": "Origine is building a multi-asset investment platform dedicated to the private markets, already active in the Private Equity and Venture Capital asset classes and developing and consolidating its presence in Real Estate, Infrastructure and Private Debt. Origine SGR combines management excellence, rigorous governance and industrial expertise, with the aim of supporting the growth of the real economy and generating sustainable returns over time.",
+    "pillars": [
+      {
+        "title": "Investment Teams' Expertise",
+        "body": "An independent investment team for every vertical in which the SGR operates, with unique and distinctive expertise and a full, exclusive focus on managing transactions and identifying strategic opportunities."
+      },
+      {
+        "title": "Origination",
+        "body": "Thanks to the investment team's deep knowledge of the asset classes and industrial verticals in which the SGR invests through its funds, and to its institutional and entrepreneurial network, Origine is able to identify and promote proprietary investment opportunities grounded in sound strategic and industrial rationale."
+      },
+      {
+        "title": "Asset management",
+        "body": "Origine's strength lies in the close collaboration between its investment teams and its Operating Partners and Senior Advisors, who support the teams in identifying opportunities and creating value across the entire investment cycle, bringing operational expertise, strategic vision and privileged access to top-tier industrial relationships."
+      }
+    ]
+  },
+  "societa": {
+    "eyebrow": "The company",
+    "title": "International standards, Italian roots.",
+    "p1": "Inspired by established models within leading international investment groups, Origine is building a multi-asset platform that integrates centralised governance, access to proprietary opportunities and the specialist expertise of its various investment teams.",
+    "p2": "An approach that creates economies of scale, supports the definition of tailored strategies and makes it possible to capture distinctive opportunities across different market segments.",
+    "p3": "Origine was therefore established to operate as a unified investment platform for Italian institutional and private capital, working to international standards while maintaining strong roots in the specific features and needs of the country.",
+    "imgAlt": "Institutional architecture",
+    "caption": "Origine SGR S.p.A."
+  },
+  "fondi": {
+    "title": "Funds under management",
+    "intro": "A constantly growing offering across the private markets, through the launch of new funds and consolidation transactions around strategic verticals for the country's economy.",
+    "funds": [
+      {
+        "state": "Fundraising",
+        "title": "Origine Growth PE Fund",
+        "body": "A PIR-compliant, generalist Private Equity fund with a strong focus on four strategic verticals. Growth and consolidation strategies to create sustainable value.",
+        "cat": "PIR · Private Equity"
+      },
+      {
+        "state": "Divestment and value creation",
+        "title": "Origine VC Funds",
+        "body": "A Venture Capital initiative focused on innovation and growth, with particular attention to MedTech and Life Sciences, currently in the divestment and value-creation phase of its portfolio.",
+        "cat": "Venture Capital"
+      }
+    ],
+    "focusEyebrow": "Focus — Origine Growth PE Fund",
+    "focusTitle": "Flexible capital for high-potential Italian SMEs.",
+    "focusBody": "Flexible capital to support Italian SMEs with ambitious growth and consolidation plans. Origine Growth PE Fund is a PIR-compliant private equity fund with a fundraising target of €400 million, focused on high-potential Italian companies. Through growth and consolidation strategies in strategic industrial sectors, the fund aims to create sustainable value and to strengthen the competitiveness and industrial autonomy of the Italian and European economic system.",
+    "sub1": "01 · Investment terms",
+    "metrics": [
+      { "ix": "Ticket", "v": "€30–45m", "l": "Average investment ticket" },
+      { "ix": "Time horizon", "v": "4–6 years", "l": "Investment period" }
+    ],
+    "approach": [
+      { "ix": "Strategy", "v": "Buyout & Growth Capital", "l": "Majority stakes (incl. LBO), qualified minorities and other equity instruments." },
+      { "ix": "Geographic focus", "v": "Italy", "l": "Min. 70% Italy, max 30% Europe on an opportunistic basis." }
+    ],
+    "sub2Eyebrow": "02 · Target sectors",
+    "sub2Body": "Four strategic verticals on which the fund concentrates its investments, strengthening the competitiveness and industrial autonomy of the Italian and European economic system.",
+    "sectors": [
+      { "title": "AgriFood B2B & Technology", "alt": "Agriculture and technology" },
+      { "title": "Technology & Business Transformation", "alt": "Technology and digital transformation" },
+      { "title": "Energy Transition & Related Services", "alt": "Energy transition" },
+      { "title": "Aerospace, Defense & Safety", "alt": "Aerospace and defence" }
+    ],
+    "sub3": "03 · Distinctive elements",
+    "distinctive": [
+      {
+        "title": "Unique positioning",
+        "body": "A focus on specific investment verticals, supported by the team's expertise and by high-profile Operating Partners and Senior Advisors — recognised industry leaders in their respective sectors — who contribute to identifying, managing and enhancing portfolio companies, in a model that is distinctive within the Italian private equity landscape."
+      },
+      {
+        "title": "A strong team reputation",
+        "body": "Unique expertise in managing complex transactions and identifying strategic opportunities, built on a professional collaboration consolidated over time and on broad, diversified experience in M&A transactions and entrepreneurship."
+      },
+      {
+        "title": "An active proprietary pipeline",
+        "body": "Thanks to its specialist focus and the team's expertise, the fund accesses proprietary investment opportunities in strategic sectors and high-scalability niches, often outside the traditional competitive processes."
+      }
+    ]
+  },
+  "esg": {
+    "eyebrow": "ESG commitment",
+    "mark": "ESG.",
+    "p1": "ESG factors are a central component of Origine's investment approach, so that the entire portfolio benefits from a structural competitive advantage. Integrating ESG standards across the whole investment cycle helps strengthen the resilience of assets, improve operating performance and promote sustainable growth over time.",
+    "p2": "We firmly believe that the growth of portfolio companies must be sustainable, inclusive and transparent: every investment will be subject to ESG due diligence.",
+    "pills": [
+      { "title": "Resilience", "desc": "More solid assets" },
+      { "title": "Performance", "desc": "Better operations" },
+      { "title": "Due diligence", "desc": "On every investment" }
+    ]
+  },
+  "team": {
+    "title": "The team",
+    "intro": "Professionals with proven experience in private equity, venture capital and industry, united by a collaboration consolidated over time.",
+    "groupPe": "Private Equity Team",
+    "groupManagement": "Management",
+    "groupOperating": "Operating Partners",
+    "groupAdvisors": "Senior Advisors",
+    "toggleShow": "Show profile",
+    "toggleHide": "Hide profile",
+    "bios": {
+      "sambuco": "Investment banker, principal investor and entrepreneur with consolidated experience across the public and private sectors, with particular specialisation in telecommunications and digital transformation, energy and the agri-food supply chain. Over his career he has held senior roles, including Senior Managing Director at Macquarie, Senior Partner at Vitale & Co and Head of the Telecommunications Department at the Italian Ministry of Economic Development (MISE).",
+      "cenci": "A professional with over 25 years of experience in the financial sector, more than 15 of them in Private Equity as a principal investor in investment funds and 10 years in investment banking at Deutsche Bank. Over his career he has held prominent roles in the Italian private equity market, including Investment Director at Clessidra SGR and Partner at Armònia SGR.",
+      "mineo": "He joined Origine in May 2026 as Investment Manager, having built around nine years of experience in the Italian mid-market private equity sector. Following roles at Armònia SGR and Entangled Capital SGR, he has taken part in numerous majority investment transactions across different industrial sectors, following all their key phases, from analysing and structuring the investment to managing and enhancing portfolio companies. He has also supported the management of portfolio companies in implementing strategic and operational value-creation initiatives.",
+      "tamburelli": "He has built over five years of experience in mid-market M&A transactions at Deloitte Financial Advisory, where he actively contributed to numerous deals, both sell-side and buy-side, advising entrepreneurs, private equity funds and industrial players. Over his career he has developed expertise in the ICT and cybersecurity, software and artificial intelligence, telecommunications, AgriFood and energy transition sectors. He holds a bachelor's degree from ESCP Business School and a Master of Science in Corporate Finance & Banking from EDHEC."
+    }
+  },
+  "news": {
+    "title": "News",
+    "intro": "Press releases and institutional updates since the founding of Origine.",
+    "items": [
+      { "date": "Press release", "title": "Origine SGR launches." },
+      { "date": "Press coverage", "title": "Origine SGR launches, a new private equity and venture capital fund management company." }
+    ]
+  },
+  "contatti": {
+    "eyebrow": "Contact",
+    "title": "Let's build<br></br>value, <em>together.</em>",
+    "side": "For professional investors, entrepreneurs and industrial partners interested in the Origine platform."
+  },
+  "footer": {
+    "statement": "A multi-asset investment platform dedicated to the private markets.",
+    "navHeader": "Navigation",
+    "linkSocieta": "Company",
+    "linkFondi": "Funds",
+    "linkEsg": "ESG",
+    "linkTeam": "Team",
+    "linkPortfolio": "Portfolio",
+    "contactsHeader": "Contact",
+    "disclaimer": "Origine SGR S.p.A. — Asset Management Company (Società di Gestione del Risparmio). The information contained on this site is for illustrative purposes only and does not constitute a public offering or financial advice.",
+    "privacy": "Privacy Policy",
+    "cookie": "Cookie Policy",
+    "copy": "© {year} Origine SGR S.p.A.",
+    "builtBy": "Built by <a>WorldLabs</a>"
+  },
+  "portfolio": {
+    "eyebrow": "Portfolio",
+    "title": "Origine <em>VC Funds</em>.",
+    "intro": "The Venture Capital fund's portfolio consists of minority stakes in international startups, primarily in the healthcare sector and — to a lesser extent — digital.",
+    "metricCompaniesLabel": "Portfolio companies",
+    "metricStakeValue": "Minority",
+    "metricStakeLabel": "Stakes in international startups",
+    "ctaTitle": "Let's build the next chapter, <em>together.</em>",
+    "ctaButton": "Get in touch",
+    "tabsAria": "Portfolio areas",
+    "toggleShow": "Show details",
+    "toggleHide": "Hide details",
+    "tabs": {
+      "medtech": "MedTech & Life Sciences",
+      "digital": "Digital"
+    },
+    "companies": {
+      "betaglue": {
+        "desc": "A medtech company developing a loco-regional radiotherapy treatment for unresectable solid tumours. Its proprietary technology consists of a compound injected via a dedicated medical device that enables intratumoral radiotherapy through Yttrium-90 microspheres.",
+        "status": "Q3 2016 · Stake 15.5%"
+      },
+      "cvlab": {
+        "desc": "A venture builder focused on cardiovascular innovation, born from the collaboration between Innogest, serial entrepreneurs and investors specialised in the cardiovascular sector. Today CVLab includes four projects: Recross, Dyverto, Kapto and Fideliomed.",
+        "status": "Q4 2016 · Stake 43.2%"
+      },
+      "empatica": {
+        "desc": "An MIT spin-off company developing medical-grade wearable devices and AI-based software for remote patient monitoring, supporting the detection and management of neurological conditions such as epilepsy and other chronic diseases.",
+        "status": "Q4 2016 · Stake 14.3%"
+      },
+      "greenbone": {
+        "desc": "An Italian biomedical company developing innovative solutions for bone regeneration, using advanced bio-inspired materials for bone substitutes derived from natural structures, designed to support and accelerate the healing of complex bone defects.",
+        "status": "Q2 2017 · Stake 10.8%"
+      },
+      "picardia": {
+        "desc": "An Israeli medical device company focused on catheter-based solutions for treating structural heart valve disease. Its ShortCut™ and Leaflex™ technologies are designed for minimally invasive cardiac procedures, particularly for patients undergoing TAVR.",
+        "status": "Q3 2015 · Stake 2.2%"
+      },
+      "anaconda": {
+        "desc": "A Spanish medical device company specialised in advanced solutions for treating acute ischaemic stroke. Founded in Barcelona in 2015, it develops next-generation mechanical thrombectomy technologies; its flagship innovation is the ANA Funnel Catheter.",
+        "status": "Q3 2016 · Stake 21.9%"
+      },
+      "newronika": {
+        "desc": "An Italian medtech company based in Milan developing advanced neurostimulation systems for neurological disorders, in particular Parkinson's disease, with adaptive deep brain stimulation (aDBS) technologies through the AlphaDBS platform.",
+        "status": "Q4 2015 · Stake 26.49%"
+      },
+      "angiodroid": {
+        "desc": "An Italian medical device company developing automated CO₂ injector systems for vascular imaging procedures, using carbon dioxide as a contrast agent alternative to iodine, particularly for patients with renal insufficiency or contrast-medium allergies.",
+        "status": "Q2 2015 · Stake 6.8%"
+      },
+      "thron": {
+        "desc": "An Italian technology company specialised in Digital Asset Management (DAM) and customer engagement solutions. Its AI-based platform enables companies to centralise, organise and distribute digital assets efficiently across multiple channels.",
+        "status": "Q2 2014 · Stake 11.9%"
+      },
+      "sardexpay": {
+        "desc": "An Italian fintech company providing digital payment and mutual-credit solutions to support local businesses and regional economies. Originating from the Sardex circuit in Sardinia, it enables SMEs to exchange goods and services through complementary currency systems.",
+        "status": "Q2 2016 · Stake 12.9%"
+      },
+      "mioassicuratore": {
+        "desc": "An insurance platform and broker focused on multiple verticals — motor, marine, health and pets — helping customers find, compare, buy and manage policies more quickly and easily. The company is incubated by H-Farm and Pi Campus.",
+        "status": "Q3 2018 · Stake 25.4%"
+      },
+      "soulkitchen": {
+        "desc": "An Italian food-tech company based in Milan developing semi-finished ingredients and ready-to-use food solutions for restaurants and retail, optimising food production through industrialised, data-driven processes.",
+        "status": "Q1 2018 · Stake 18.3%"
+      }
+    }
+  }
+}

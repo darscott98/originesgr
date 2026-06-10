@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "homeTitle": "Origine SGR — Piattaforma di investimento multi-asset",
+    "homeDescription": "Origine SGR unisce capitali privati e istituzionali con competenze industriali e finanziarie di prim'ordine per creare valore sostenibile e rafforzare il sistema imprenditoriale italiano.",
+    "portfolioTitle": "Portfolio — Origine SGR",
+    "portfolioDescription": "Il portafoglio di Origine SGR: società partecipate nei segmenti Technology, MedTech e Life Sciences."
+  },
+  "nav": {
+    "societa": "Società",
+    "fondi": "Fondi",
+    "team": "Team",
+    "portfolio": "Portafoglio",
+    "esg": "ESG",
+    "news": "News",
+    "contatti": "Contatti",
+    "brandHome": "Origine SGR — home",
+    "menuOpen": "Apri il menu",
+    "menuClose": "Chiudi il menu",
+    "ariaMain": "Navigazione principale",
+    "ariaMenu": "Menu"
+  },
+  "localeSwitcher": {
+    "label": "Cambia lingua",
+    "it": "IT",
+    "en": "EN"
+  },
+  "hero": {
+    "eyebrow": "Piattaforma di investimento multi-asset",
+    "title": "Capitale e competenze, alle <em>origini</em> del valore imprenditoriale italiano.",
+    "lede": "Uniamo capitali privati e istituzionali con competenze industriali e finanziarie, di prim'ordine, per creare valore sostenibile e rafforzare il sistema imprenditoriale italiano e la sua internazionalizzazione.",
+    "ctaFunds": "Esplora i fondi",
+    "ctaVision": "La nostra visione",
+    "scroll": "Scorri"
+  },
+  "ticker": {
+    "items": [
+      { "label": "Private Equity", "state": "Attivo" },
+      { "label": "Venture Capital", "state": "In valorizzazione" },
+      { "label": "Real Estate", "state": "In sviluppo" },
+      { "label": "Infrastructure", "state": "In sviluppo" },
+      { "label": "Private Debt", "state": "In scouting" }
+    ]
+  },
+  "intro": {
+    "title": "Una piattaforma per i private markets italiani.",
+    "body": "Origine sviluppa una piattaforma d'investimento multi-asset dedicata agli investimenti nei private markets, già attiva nelle asset classes del Private Equity e Venture Capital e in fase di sviluppo e consolidamento in quelle del Real Estate, Infrastructure e Private Debt. Origine SGR combina eccellenza gestionale, rigorosa governance e competenze industriali, con l'obiettivo di sostenere la crescita dell'economia reale e generare rendimenti sostenibili nel tempo.",
+    "pillars": [
+      {
+        "title": "Expertise dei Team di Investimento",
+        "body": "Team di investimento indipendente per ogni verticale in cui la SGR opera, con competenze uniche e distintive e una focalizzazione piena ed esclusiva nella gestione di operazioni e nell'individuazione di opportunità strategiche."
+      },
+      {
+        "title": "Origination",
+        "body": "Grazie alla profonda conoscenza del team d'investimento delle asset class e dei verticali industriali in cui l'SGR, tramite i suoi fondi, investe, e al proprio network istituzionale e imprenditoriale, Origine riesce ad individuare e promuovere opportunità d'investimento proprietarie, fondate su solidi razionali strategici industriali."
+      },
+      {
+        "title": "Gestione degli asset",
+        "body": "La forza di Origine risiede nella stretta collaborazione dei team di investimento con i propri Operating Partners e Senior Advisors, che affiancano i team nell'individuazione delle opportunità e nella creazione di valore lungo l'intero ciclo di investimento, apportando competenze operative, visione strategica e accesso privilegiato a relazioni industriali di primo livello."
+      }
+    ]
+  },
+  "societa": {
+    "eyebrow": "La società",
+    "title": "Standard internazionali, radici italiane.",
+    "p1": "Ispirata a modelli consolidati nei principali gruppi di investimento internazionali, Origine sviluppa una piattaforma multi-asset che integra governance centralizzata, accesso a opportunità proprietarie e competenze specialistiche dei vari team d'investimento.",
+    "p2": "Un approccio che crea efficienze di scala, supporta la definizione di strategie personalizzate e consente di intercettare opportunità distintive nei diversi segmenti di mercato.",
+    "p3": "Origine è stata pertanto costituita per operare come piattaforma unificata di investimento per il capitale istituzionale e privato italiano, operando secondo standard internazionali e mantenendo al contempo un forte radicamento nelle specificità e nelle esigenze del Paese.",
+    "imgAlt": "Architettura istituzionale",
+    "caption": "Origine SGR S.p.A."
+  },
+  "fondi": {
+    "title": "Fondi in gestione",
+    "intro": "Un'offerta in costante crescita lungo i private markets, tramite il lancio di nuovi fondi e operazioni di consolidamento attorno a verticali strategici per l'economia del Paese.",
+    "funds": [
+      {
+        "state": "In fase di raccolta",
+        "title": "Origine Growth PE Fund",
+        "body": "Fondo di Private Equity PIR-compliant, generalista con forte concentrazione su quattro verticali strategici. Strategie di crescita e consolidamento per creare valore sostenibile.",
+        "cat": "PIR · Private Equity"
+      },
+      {
+        "state": "In fase di disinvestimento e valorizzazione",
+        "title": "Origine VC Funds",
+        "body": "Un'iniziativa di Venture Capital focalizzata su innovazione e crescita, con una particolare attenzione a MedTech e Life Sciences, attualmente in fase di disinvestimento e valorizzazione del portafoglio.",
+        "cat": "Venture Capital"
+      }
+    ],
+    "focusEyebrow": "Focus — Origine Growth PE Fund",
+    "focusTitle": "Capitale flessibile per le PMI italiane ad alto potenziale.",
+    "focusBody": "Capitale flessibile a supporto delle PMI italiane con ambiziosi piani di crescita e consolidamento. Origine Growth PE Fund è un fondo di private equity PIR-compliant con un target di raccolta di 400 milioni di euro, focalizzato su imprese italiane ad alto potenziale. Attraverso strategie di crescita e consolidamento in comparti industriali strategici, il fondo mira a creare valore sostenibile e a rafforzare la competitività e l'autonomia industriale del sistema economico italiano ed europeo.",
+    "sub1": "01 · Termini d'investimento",
+    "metrics": [
+      { "ix": "Ticket", "v": "€30–45m", "l": "Ticket medio d'investimento" },
+      { "ix": "Orizzonte temporale", "v": "4–6 anni", "l": "Periodo d'investimento" }
+    ],
+    "approach": [
+      { "ix": "Strategia", "v": "Buyout & Growth Capital", "l": "Maggioranze (incl. LBO), minoranze qualificate e altri strumenti partecipativi." },
+      { "ix": "Focus geografico", "v": "Italia", "l": "Min. 70% Italia, max 30% Europa su base opportunistica." }
+    ],
+    "sub2Eyebrow": "02 · Settori target",
+    "sub2Body": "Quattro verticali strategici su cui il fondo concentra gli investimenti, a rafforzamento della competitività e dell'autonomia industriale del sistema economico italiano ed europeo.",
+    "sectors": [
+      { "title": "AgriFood B2B & Technology", "alt": "Agricoltura e tecnologia" },
+      { "title": "Technology & Business Transformation", "alt": "Tecnologia e trasformazione digitale" },
+      { "title": "Energy Transition & Related Services", "alt": "Transizione energetica" },
+      { "title": "Aerospace, Defense & Safety", "alt": "Aerospazio e difesa" }
+    ],
+    "sub3": "03 · Elementi distintivi",
+    "distinctive": [
+      {
+        "title": "Posizionamento unico",
+        "body": "Focalizzazione su specifici verticali di investimento, supportata dall'expertise del team e da Operating Partner e Senior Advisor di alto profilo — riconosciuti leader industriali nei rispettivi settori — che contribuiscono all'individuazione, alla gestione e alla valorizzazione delle società in portafoglio, in un modello distintivo nel panorama del private equity italiano."
+      },
+      {
+        "title": "Solida reputazione del team",
+        "body": "Competenze uniche nella gestione di operazioni complesse e nell'individuazione di opportunità strategiche, costruite su una collaborazione professionale consolidata nel tempo e su un'esperienza ampia e diversificata in operazioni di M&A e nell'imprenditoria."
+      },
+      {
+        "title": "Pipeline proprietaria attiva",
+        "body": "Grazie al focus specialistico e alle competenze del team, il fondo accede a opportunità di investimento proprietarie in comparti strategici e nicchie ad alto potenziale di scalabilità, spesso al di fuori dei tradizionali processi competitivi."
+      }
+    ]
+  },
+  "esg": {
+    "eyebrow": "Impegno ESG",
+    "mark": "ESG.",
+    "p1": "I fattori ESG costituiscono una componente centrale dell'approccio di investimento di Origine, affinché l'intero portafoglio abbia un vantaggio competitivo strutturale. L'integrazione degli standard ESG, lungo l'intero ciclo di investimento, contribuisce a rafforzare la resilienza degli asset, migliorare le performance operative e promuovere una crescita sostenibile nel tempo.",
+    "p2": "Crediamo fortemente che la crescita delle società di portafoglio debba essere sostenibile, inclusiva e trasparente: ogni investimento sarà oggetto di due diligence ESG.",
+    "pills": [
+      { "title": "Resilienza", "desc": "Asset più solidi" },
+      { "title": "Performance", "desc": "Operatività migliore" },
+      { "title": "Due diligence", "desc": "Su ogni investimento" }
+    ]
+  },
+  "team": {
+    "title": "Il team",
+    "intro": "Professionisti con una comprovata esperienza nel private equity, nel venture capital e nell'industria, uniti da una collaborazione consolidata nel tempo.",
+    "groupPe": "Private Equity Team",
+    "groupManagement": "Management",
+    "groupOperating": "Operating Partners",
+    "groupAdvisors": "Senior Advisors",
+    "toggleShow": "Mostra profilo",
+    "toggleHide": "Nascondi profilo",
+    "bios": {
+      "sambuco": "Investment banker, principal investor e imprenditore con una consolidata esperienza maturata nel settore pubblico e privato, con particolare specializzazione nei comparti delle telecomunicazioni e della trasformazione digitale, dell'energia e della filiera agroalimentare. Nel corso della sua carriera ha ricoperto ruoli di primaria responsabilità, tra cui Senior Managing Director presso Macquarie, Socio Senior di Vitale & Co e responsabile del Dipartimento Telecomunicazioni del Ministero dello Sviluppo Economico (MISE).",
+      "cenci": "Professionista con oltre 25 anni di esperienza nel settore finanziario, di cui più di 15 maturati nel Private Equity come principal investor in fondi d'investimento e 10 anni nell'investment banking presso Deutsche Bank. Nel corso della sua carriera ha ricoperto ruoli di rilievo nel mercato italiano del private equity, tra cui Investment Director presso Clessidra SGR e Partner di Armònia SGR.",
+      "mineo": "Entrato in Origine nel maggio 2026 con il ruolo di Investment Manager, ha maturato circa nove anni di esperienza nel private equity mid-market italiano. Dopo le esperienze in Armònia SGR e in Entangled Capital SGR, ha preso parte a numerose operazioni di investimento di maggioranza in differenti settori industriali, seguendone tutte le principali fasi, dall'analisi e strutturazione dell'investimento alla gestione e valorizzazione delle partecipate. Ha inoltre supportato il management delle società in portafoglio nell'implementazione di iniziative strategiche e operative finalizzate alla creazione di valore.",
+      "tamburelli": "Ha maturato oltre cinque anni di esperienza in operazioni di M&A nel segmento mid-market presso Deloitte Financial Advisory, dove ha contribuito attivamente a numerose operazioni, sia sell-side che buy-side, assistendo imprenditori, fondi di private equity e operatori industriali. Nel corso della sua carriera ha sviluppato competenze nei settori ICT e cybersecurity, software e intelligenza artificiale, telecomunicazioni, AgriFood ed energy transition. Ha conseguito una laurea triennale presso l'ESCP Business School e un Master of Science in Corporate Finance & Banking all'EDHEC."
+    }
+  },
+  "news": {
+    "title": "News",
+    "intro": "Comunicati stampa e aggiornamenti istituzionali dalla costituzione di Origine.",
+    "items": [
+      { "date": "Comunicato stampa", "title": "Al via Origine SGR." },
+      { "date": "Rassegna stampa", "title": "Al via Origine SGR, nuova società di gestione di fondi di private equity e venture capital." }
+    ]
+  },
+  "contatti": {
+    "eyebrow": "Contatti",
+    "title": "Costruiamo<br></br>valore, <em>insieme.</em>",
+    "side": "Per investitori professionali, imprenditori e partner industriali interessati alla piattaforma Origine."
+  },
+  "footer": {
+    "statement": "Piattaforma d'investimento multi-asset dedicata ai private markets.",
+    "navHeader": "Navigazione",
+    "linkSocieta": "Società",
+    "linkFondi": "Fondi",
+    "linkEsg": "ESG",
+    "linkTeam": "Team",
+    "linkPortfolio": "Portfolio",
+    "contactsHeader": "Contatti",
+    "disclaimer": "Origine SGR S.p.A. — Società di Gestione del Risparmio. Le informazioni contenute in questo sito hanno finalità esclusivamente illustrative e non costituiscono offerta al pubblico né consulenza finanziaria.",
+    "privacy": "Privacy Policy",
+    "cookie": "Cookie Policy",
+    "copy": "© {year} Origine SGR S.p.A.",
+    "builtBy": "Realizzato da <a>WorldLabs</a>"
+  },
+  "portfolio": {
+    "eyebrow": "Portfolio",
+    "title": "Origine <em>VC Funds</em>.",
+    "intro": "Il portafoglio del fondo di Venture Capital consiste in partecipazioni di minoranza in startup internazionali, primariamente nel settore healthcare e — in misura minore — digital.",
+    "metricCompaniesLabel": "Società in portafoglio",
+    "metricStakeValue": "Minoranza",
+    "metricStakeLabel": "Partecipazioni in startup internazionali",
+    "ctaTitle": "Costruiamo il prossimo capitolo, <em>insieme.</em>",
+    "ctaButton": "Contattaci",
+    "tabsAria": "Aree del portafoglio",
+    "toggleShow": "Mostra dettagli",
+    "toggleHide": "Nascondi dettagli",
+    "tabs": {
+      "medtech": "MedTech & Life Sciences",
+      "digital": "Digital"
+    },
+    "companies": {
+      "betaglue": {
+        "desc": "Società medtech che sviluppa un trattamento radioterapico loco-regionale per tumori solidi non resecabili. La sua tecnologia proprietaria consiste in un composto iniettato tramite un dispositivo medico dedicato che consente la radioterapia intratumorale mediante microsfere di Ittrio-90.",
+        "status": "Q3 2016 · Partecipazione 15,5%"
+      },
+      "cvlab": {
+        "desc": "Venture builder focalizzato sull'innovazione cardiovascolare, nato dalla collaborazione tra Innogest, imprenditori seriali e investitori specializzati nel settore cardiovascolare. Oggi CVLab include quattro progetti: Recross, Dyverto, Kapto e Fideliomed.",
+        "status": "Q4 2016 · Partecipazione 43,2%"
+      },
+      "empatica": {
+        "desc": "Società spin-off del MIT che sviluppa dispositivi indossabili di qualità medicale e software basato sull'AI per il monitoraggio remoto dei pazienti, a supporto del rilevamento e della gestione di condizioni neurologiche come l'epilessia e altre malattie croniche.",
+        "status": "Q4 2016 · Partecipazione 14,3%"
+      },
+      "greenbone": {
+        "desc": "Società biomedica italiana che sviluppa soluzioni innovative per la rigenerazione ossea, con materiali avanzati bio-ispirati per sostituti ossei derivati da strutture naturali, progettati per supportare e accelerare la guarigione di difetti ossei complessi.",
+        "status": "Q2 2017 · Partecipazione 10,8%"
+      },
+      "picardia": {
+        "desc": "Società israeliana di dispositivi medici focalizzata su soluzioni catetere-based per il trattamento delle malattie valvolari cardiache strutturali. Le sue tecnologie ShortCut™ e Leaflex™ sono progettate per le procedure cardiache minimamente invasive, in particolare per i pazienti sottoposti a TAVR.",
+        "status": "Q3 2015 · Partecipazione 2,2%"
+      },
+      "anaconda": {
+        "desc": "Società spagnola di dispositivi medici specializzata in soluzioni avanzate per il trattamento dell'ictus ischemico acuto. Fondata a Barcellona nel 2015, sviluppa tecnologie di trombectomia meccanica di nuova generazione; la sua innovazione di punta è l'ANA Funnel Catheter.",
+        "status": "Q3 2016 · Partecipazione 21,9%"
+      },
+      "newronika": {
+        "desc": "Società medtech italiana con sede a Milano che sviluppa sistemi avanzati di neurostimolazione per disturbi neurologici, in particolare il morbo di Parkinson, con tecnologie di stimolazione cerebrale profonda adattiva (aDBS) attraverso la piattaforma AlphaDBS.",
+        "status": "Q4 2015 · Partecipazione 26,49%"
+      },
+      "angiodroid": {
+        "desc": "Società italiana di dispositivi medici che sviluppa sistemi iniettori automatizzati di CO₂ per procedure di imaging vascolare, impiegando l'anidride carbonica come agente di contrasto alternativo allo iodio, in particolare per pazienti con insufficienza renale o allergie al mezzo di contrasto.",
+        "status": "Q2 2015 · Partecipazione 6,8%"
+      },
+      "thron": {
+        "desc": "Società tecnologica italiana specializzata in soluzioni di Digital Asset Management (DAM) e customer engagement. La sua piattaforma basata sull'AI consente alle aziende di centralizzare, organizzare e distribuire asset digitali in modo efficiente su più canali.",
+        "status": "Q2 2014 · Partecipazione 11,9%"
+      },
+      "sardexpay": {
+        "desc": "Società fintech italiana che fornisce soluzioni di pagamento digitale e credito mutuale per supportare le imprese locali e le economie regionali. Originata dal circuito Sardex in Sardegna, consente alle PMI di scambiare beni e servizi attraverso sistemi di valuta complementare.",
+        "status": "Q2 2016 · Partecipazione 12,9%"
+      },
+      "mioassicuratore": {
+        "desc": "Piattaforma e broker assicurativo focalizzato su molteplici verticali — auto, nautica, salute e animali domestici — che aiuta i clienti a trovare, confrontare, acquistare e gestire polizze in modo più rapido e semplice. La società è incubata da H-Farm e Pi Campus.",
+        "status": "Q3 2018 · Partecipazione 25,4%"
+      },
+      "soulkitchen": {
+        "desc": "Società italiana di food-tech con sede a Milano che sviluppa ingredienti semi-lavorati e soluzioni alimentari pronte all'uso per ristoranti e retail, ottimizzando la produzione alimentare attraverso processi industrializzati e data-driven.",
+        "status": "Q1 2018 · Partecipazione 18,3%"
+      }
+    }
+  }
+}

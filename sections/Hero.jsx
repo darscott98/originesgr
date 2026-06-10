@@ -1,54 +1,45 @@
+import { getTranslations } from "next-intl/server";
 import Button from "@/components/Button";
 
-export default function Hero() {
+export default async function Hero() {
+  const t = await getTranslations("hero");
   return (
     <section className="hero" id="top">
       <div className="hero-photo" aria-hidden="true">
-        <img src="/images/rome-hero.png" alt="" />
+        <img src="/images/hero-bg.png" alt="" />
       </div>
       <div className="hero-bg" />
       <div className="hero-arcs" aria-hidden="true">
-        <svg viewBox="0 0 800 800" fill="none">
-          <g stroke="rgba(226,192,116,.22)" strokeWidth="1" fill="none">
-            <circle cx="640" cy="400" r="90" />
-            <circle cx="640" cy="400" r="170" />
-            <circle cx="640" cy="400" r="250" />
-            <circle cx="640" cy="400" r="330" />
-            <circle cx="640" cy="400" r="410" />
-            <circle cx="640" cy="400" r="500" />
-            <circle cx="640" cy="400" r="600" />
-            <circle cx="640" cy="400" r="5" fill="rgba(226,192,116,.8)" stroke="none" />
+        <svg viewBox="0 0 640 640" fill="none">
+          <g className="rings">
+            <circle className="ring" cx="466" cy="300" r="56" />
+            <circle className="ring" cx="466" cy="300" r="118" />
+            <circle className="ring" cx="466" cy="300" r="184" />
+            <circle className="ring" cx="466" cy="300" r="256" />
+            <circle className="ring" cx="466" cy="300" r="336" />
+            <circle className="ring" cx="466" cy="300" r="428" />
+            <circle className="ring" cx="466" cy="300" r="536" />
           </g>
+          <circle className="origin" cx="466" cy="300" r="3.5" />
         </svg>
       </div>
-      <div className="hero-mark" aria-hidden="true">
-        O
-      </div>
       <div className="wrap">
-        <span className="eyebrow hero-eyebrow reveal">
-          Piattaforma di investimento multi-asset
-        </span>
+        <span className="eyebrow hero-eyebrow reveal">{t("eyebrow")}</span>
         <h1 className="reveal d1">
-          Capitale e competenza, alle <em>origini</em> del valore industriale
-          italiano.
+          {t.rich("title", { em: (chunks) => <em>{chunks}</em> })}
         </h1>
-        <p className="hero-lede reveal d2">
-          Uniamo capitali privati e istituzionali con competenze industriali e
-          finanziarie, di prim'ordine, per creare valore sostenibile e
-          rafforzare il sistema imprenditoriale italiano e la sua
-          internazionalizzazione.
-        </p>
+        <p className="hero-lede reveal d2">{t("lede")}</p>
         <div className="hero-actions reveal d3">
           <Button href="#fondi" variant="gold" arrow>
-            Esplora i fondi
+            {t("ctaFunds")}
           </Button>
           <Button href="#societa" variant="ghost">
-            La nostra visione
+            {t("ctaVision")}
           </Button>
         </div>
       </div>
       <div className="hero-scroll" aria-hidden="true">
-        Scorri
+        {t("scroll")}
       </div>
     </section>
   );
