@@ -86,10 +86,10 @@
     ],
     "focusEyebrow": "Focus — Origine Growth PE Fund",
     "focusTitle": "Capitale Flessibile a supporto delle PMI italiane con ambiziosi piani di crescita e consolidamento.",
-    "focusBody": "Origine Growth PE Fund è un fondo di private equity PIR-compliant con un target di raccolta di 400 milioni di euro, focalizzato su imprese italiane ad alto potenziale. Attraverso strategie di crescita e consolidamento in comparti industriali strategici, il fondo mira a creare valore sostenibile e a rafforzare la competitività e l'autonomia industriale del sistema economico italiano ed europeo.",
+    "focusBody": "Origine Growth PE Fund è un fondo di private equity PIR-compliant, focalizzato su imprese italiane ad alto potenziale. Attraverso strategie di crescita e consolidamento in comparti industriali strategici, il fondo mira a creare valore sostenibile e a rafforzare la competitività e l'autonomia industriale del sistema economico italiano ed europeo.",
     "sub1": "01 · Termini d'investimento",
     "metrics": [
-      { "ix": "Ticket", "v": "€30–45m", "l": "Ticket medio d'investimento" },
+      { "ix": "Ticket", "v": "€20–45m", "l": "Range ticket d'investimento" },
       { "ix": "Orizzonte temporale", "v": "4–6 anni", "l": "Periodo d'investimento" }
     ],
     "approach": [
@@ -97,7 +97,7 @@
       { "ix": "Focus geografico", "v": "Italia", "l": "Min. 70% Italia, max 30% Europa su base opportunistica." }
     ],
     "sub2Eyebrow": "02 · Settori target",
-    "sub2Body": "Quattro verticali strategici su cui il fondo concentra gli investimenti, a rafforzamento della competitività e dell'autonomia industriale del sistema economico italiano ed europeo.",
+    "sub2Body": "Il fondo si focalizza su quattro verticali, strategici per il rafforzamento della competitività e dell'autonomia industriale ed economica dell'Italia e dell'Europa.",
     "sectors": [
       { "title": "AgriFood B2B & Technology", "alt": "Agricoltura e tecnologia" },
       { "title": "Technology & Business Transformation", "alt": "Tecnologia e trasformazione digitale" },
@@ -105,18 +105,19 @@
       { "title": "Aerospace, Defense & Safety", "alt": "Aerospazio e difesa" }
     ],
     "sub3": "03 · Elementi distintivi",
+    "sub3Body": "Focus specialistico, competenze industriali e accesso proprietario alle opportunità: gli elementi che caratterizzano il portafoglio di Origine Growth PE.",
     "distinctive": [
       {
         "title": "Posizionamento unico",
-        "body": "Origine Growth PE Fund si distingue per la focalizzazione su specifici verticali di investimento, supportata dall'expertise del team e dal coinvolgimento di Operating Partner e Senior Advisor di alto profilo, riconosciuti leader industriali nei rispettivi settori, che contribuiscono non solo all'individuazione delle opportunità di investimento, ma anche alla gestione e alla valorizzazione delle società in portafoglio, mettendo a disposizione competenze operative, esperienza imprenditoriale e un consolidato network di relazioni, in un modello distintivo nel panorama del private equity italiano."
+        "body": "Focalizzazione su specifici verticali di investimento, supportata dall'expertise del team e da Operating Partner e Senior Advisor di alto profilo — riconosciuti leader industriali nei rispettivi settori — che contribuiscono all'individuazione, alla gestione e alla valorizzazione delle società in portafoglio, secondo un modello distintivo nel panorama del private equity italiano."
       },
       {
-        "title": "Solida reputazione del team d'investimento",
-        "body": "Il team di investimento di Origine Growth PE si distingue per competenze uniche nella gestione di operazioni complesse e nell'individuazione di opportunità strategiche, facendo leva su una collaborazione professionale consolidata nel tempo. Il team combina un'esperienza ampia, profonda e diversificata nel private equity, nelle operazioni di M&A e nell'imprenditoria, ulteriormente rafforzata dal contributo di professionisti con solide competenze settoriali e una comprovata esperienza operativa."
+        "title": "Capitale flessibile per supportare la crescita",
+        "body": "Approccio d'investimento caratterizzato da elevata flessibilità nell'utilizzo di strumenti e strutture di capitale, calibrati sulle esigenze specifiche delle imprese e degli imprenditori. Il fondo può investire attraverso partecipazioni di maggioranza o minoranza qualificata, strumenti di equity, quasi-equity e mezzanini, con l'obiettivo di accelerare la crescita organica, sostenere operazioni di buy and build e accompagnare percorsi di creazione di valore di lungo termine."
       },
       {
-        "title": "Pipeline proprietaria attiva",
-        "body": "Grazie al proprio focus specialistico e alle competenze del team, Origine Growth PE Fund accede a opportunità di investimento proprietarie in settori strategici e nicchie ad alto potenziale di scalabilità, spesso al di fuori dei tradizionali processi competitivi."
+        "title": "Pipeline proprietaria",
+        "body": "Grazie alla specializzazione settoriale, al network industriale e alle competenze del team, il fondo accede a opportunità di investimento proprietarie in comparti strategici e nicchie ad alto potenziale di crescita e consolidamento, spesso al di fuori dei tradizionali processi competitivi, consentendo un sourcing differenziato e una maggiore selettività negli investimenti."
       }
     ],
     "vcFocusEyebrow": "Focus — Origine VC Funds",

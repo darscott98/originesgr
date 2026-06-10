@@ -88,6 +88,7 @@ export default async function Fondi() {
 
           <div className="focus-sub reveal">
             <span className="eyebrow">{t("sub3")}</span>
+            <p>{t("sub3Body")}</p>
           </div>
           <div className="distinct-list">
             {distinctive.map((d, i) => (

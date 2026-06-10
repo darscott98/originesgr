@@ -86,10 +86,10 @@
     ],
     "focusEyebrow": "Focus — Origine Growth PE Fund",
     "focusTitle": "Flexible Capital to Support Italian SMEs with Ambitious Growth and Consolidation Plans.",
-    "focusBody": "Origine Growth PE Fund is a PIR-compliant private equity fund with a fundraising target of €400 million, focused on high-potential Italian companies. Through growth and consolidation strategies in strategic industrial sectors, the fund aims to create sustainable value and to strengthen the competitiveness and industrial autonomy of the Italian and European economic system.",
+    "focusBody": "Origine Growth PE Fund is a PIR-compliant private equity fund focused on high-potential Italian companies. Through growth and consolidation strategies in strategic industrial sectors, the fund aims to create sustainable value and to strengthen the competitiveness and industrial autonomy of the Italian and European economic system.",
     "sub1": "01 · Investment terms",
     "metrics": [
-      { "ix": "Ticket", "v": "€30–45m", "l": "Average investment ticket" },
+      { "ix": "Ticket", "v": "€20–45m", "l": "Investment ticket range" },
       { "ix": "Time horizon", "v": "4–6 years", "l": "Investment period" }
     ],
     "approach": [
@@ -97,7 +97,7 @@
       { "ix": "Geographic focus", "v": "Italy", "l": "Min. 70% Italy, max 30% Europe on an opportunistic basis." }
     ],
     "sub2Eyebrow": "02 · Target sectors",
-    "sub2Body": "Four strategic verticals on which the fund concentrates its investments, strengthening the competitiveness and industrial autonomy of the Italian and European economic system.",
+    "sub2Body": "The fund focuses on four verticals, strategic to strengthening the industrial and economic competitiveness and autonomy of Italy and Europe.",
     "sectors": [
       { "title": "AgriFood B2B & Technology", "alt": "Agriculture and technology" },
       { "title": "Technology & Business Transformation", "alt": "Technology and digital transformation" },
@@ -105,18 +105,19 @@
       { "title": "Aerospace, Defense & Safety", "alt": "Aerospace and defence" }
     ],
     "sub3": "03 · Distinctive elements",
+    "sub3Body": "Specialist focus, industrial expertise and proprietary access to opportunities: the elements that define the Origine Growth PE portfolio.",
     "distinctive": [
       {
         "title": "Unique positioning",
-        "body": "Origine Growth PE Fund stands out for its focus on specific investment verticals, supported by the team's expertise and by the involvement of high-profile Operating Partners and Senior Advisors — recognised industry leaders in their respective sectors — who contribute not only to identifying investment opportunities, but also to the management and enhancement of portfolio companies, bringing operational expertise, entrepreneurial experience and a consolidated network of relationships, in a model that is distinctive within the Italian private equity landscape."
+        "body": "A focus on specific investment verticals, supported by the team's expertise and by high-profile Operating Partners and Senior Advisors — recognised industry leaders in their respective sectors — who contribute to the identification, management and enhancement of portfolio companies, in a model that is distinctive within the Italian private equity landscape."
       },
       {
-        "title": "A strong reputation of the investment team",
-        "body": "The Origine Growth PE investment team stands out for its unique expertise in managing complex transactions and identifying strategic opportunities, leveraging a professional collaboration consolidated over time. The team combines broad, deep and diversified experience in private equity, M&A transactions and entrepreneurship, further strengthened by the contribution of professionals with solid sector expertise and proven operational experience."
+        "title": "Flexible capital to support growth",
+        "body": "An investment approach characterised by a high degree of flexibility in the use of capital instruments and structures, tailored to the specific needs of companies and entrepreneurs. The fund can invest through majority or qualified-minority stakes, equity, quasi-equity and mezzanine instruments, with the aim of accelerating organic growth, supporting buy-and-build operations and accompanying long-term value-creation paths."
       },
       {
-        "title": "An active proprietary pipeline",
-        "body": "Thanks to its specialist focus and the team's expertise, Origine Growth PE Fund accesses proprietary investment opportunities in strategic sectors and high-scalability niches, often outside the traditional competitive processes."
+        "title": "Proprietary pipeline",
+        "body": "Thanks to its sector specialisation, industrial network and the team's expertise, the fund accesses proprietary investment opportunities in strategic sectors and niches with high growth and consolidation potential, often outside the traditional competitive processes, enabling differentiated sourcing and greater selectivity in its investments."
       }
     ],
     "vcFocusEyebrow": "Focus — Origine VC Funds",
