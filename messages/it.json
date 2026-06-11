@@ -107,6 +107,20 @@
     ],
     "sub3": "03 · Approccio distintivo",
     "sub3Body": "Un modello operativo che unisce capitale paziente, competenze industriali e una governance rigorosa per accompagnare le imprese nei loro percorsi di crescita e consolidamento.",
+    "distinctive": [
+      {
+        "title": "Approccio industriale",
+        "body": "Team d'investimento dedicati, affiancati da Operating Partners e Senior Advisors, per una gestione attiva e la creazione di valore lungo l'intero ciclo d'investimento."
+      },
+      {
+        "title": "Crescita e consolidamento",
+        "body": "Strategie di buy & build nei verticali strategici, per costruire campioni industriali competitivi a livello nazionale ed europeo."
+      },
+      {
+        "title": "Valore sostenibile",
+        "body": "Integrazione di criteri ESG e di una governance rigorosa, con l'obiettivo di generare rendimenti solidi e duraturi nel tempo."
+      }
+    ],
     "vcFocusEyebrow": "Focus — Origine VC Funds",
     "vcFocusTitle": "Tecnologia, salute e crescita in fase di valorizzazione.",
     "vcFocusBody": "Un'iniziativa di Venture Capital focalizzata su innovazione e crescita, con una particolare attenzione ai settori MedTech e Life Sciences, attualmente in fase di disinvestimento e valorizzazione del portafoglio."

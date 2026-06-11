@@ -107,6 +107,20 @@
     ],
     "sub3": "03 · A distinctive approach",
     "sub3Body": "An operating model that combines patient capital, industrial expertise and rigorous governance to support companies along their growth and consolidation journeys.",
+    "distinctive": [
+      {
+        "title": "Industrial approach",
+        "body": "Dedicated investment teams, supported by Operating Partners and Senior Advisors, for active management and value creation across the entire investment cycle."
+      },
+      {
+        "title": "Growth and consolidation",
+        "body": "Buy-and-build strategies across strategic verticals, to build industrial champions that compete at national and European level."
+      },
+      {
+        "title": "Sustainable value",
+        "body": "Integration of ESG criteria and rigorous governance, with the aim of generating solid, lasting returns over time."
+      }
+    ],
     "vcFocusEyebrow": "Focus — Origine VC Funds",
     "vcFocusTitle": "Innovation and growth, in the value-creation phase.",
     "vcFocusBody": "A Venture Capital initiative focused on innovation and growth, with particular attention to the MedTech and Life Sciences sectors, currently in the divestment and value-creation phase of its portfolio."

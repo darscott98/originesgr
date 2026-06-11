@@ -16,6 +16,7 @@ export default async function Fondi() {
   const metrics = t.raw("metrics");
   const approach = t.raw("approach");
   const sectors = t.raw("sectors");
+  const distinctive = t.raw("distinctive");
   return (
     <section className="panel" id="fondi">
       <div className="wrap">
@@ -88,6 +89,17 @@ export default async function Fondi() {
           <div className="focus-sub reveal">
             <span className="eyebrow">{t("sub3")}</span>
             <p>{t("sub3Body")}</p>
+          </div>
+          <div className="distinct-list">
+            {distinctive.map((d, i) => (
+              <div key={d.title} className={`distinct-item reveal${i ? ` d${i}` : ""}`}>
+                <span className="di-num" aria-hidden="true">{`0${i + 1}`}</span>
+                <div>
+                  <h3>{d.title}</h3>
+                  <p>{d.body}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
 
