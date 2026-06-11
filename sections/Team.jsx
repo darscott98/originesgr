@@ -4,7 +4,7 @@ import TeamMember from "@/components/TeamMember";
 // Names, initials and roles are proper nouns / already in English, so they live
 // here as the single source of truth. Bios are translated and looked up by key.
 const management = [
-  { ini: "RS", name: "Roberto Sambuco", role: "CEO", img: "/images/Roberto-Sambuco.png" },
+  { ini: "RS", name: "Roberto Sambuco", role: "CEO", bioKey: "sambuco", img: "/images/Roberto-Sambuco.png" },
   { ini: "MC", name: "Marialiliana Conte", role: "CFO", bioKey: "conte", img: "/images/Marialiliana-Conte.png" },
   // role is locale-aware: IT shows "Gestione dei fondi", EN "Fund Manager".
   { ini: "TS", name: "Teresa Sanseverino", role: { it: "Gestione dei fondi", en: "Fund Manager" }, img: "/images/Teresa-Sanseverino.png" },
