@@ -519,7 +519,9 @@ footer .wrap{position:relative;z-index:1}
 }
 @media(max-width:720px){
   .fund-row{grid-template-columns:1fr;gap:.8rem}
-  .fund-cat{justify-self:start;text-align:left}
+  /* render the category as a distinct pill badge once the row stacks */
+  .fund-cat{justify-self:start;text-align:left;align-self:start;display:inline-block;padding:.4rem .85rem;border:1px solid rgba(150,112,41,.35);border-radius:999px;color:var(--gold-d);background:rgba(201,161,78,.08);letter-spacing:.14em;white-space:normal}
+  .dark .fund-cat{color:var(--gold-l);border-color:rgba(226,192,116,.35);background:rgba(226,192,116,.08)}
   .approach{grid-template-columns:1fr}
   .approach .ap{border-right:0;padding:1.4rem 0 0}
   .approach .ap:last-child{padding-left:0}
@@ -534,6 +536,9 @@ footer .wrap{position:relative;z-index:1}
   .board-head h3{white-space:normal;font-size:clamp(1.7rem,7vw,2.5rem)}
   .team-sub{flex-wrap:wrap;gap:1rem}
   .team-sub h3{white-space:normal;font-size:clamp(1.2rem,5.5vw,1.5rem)}
+  /* stack board member name + role vertically on mobile */
+  .board-item{flex-direction:column;align-items:flex-start;gap:.35rem}
+  .board-item .bm-role{white-space:normal}
 }
 @media(max-width:480px){
   .sectors,.team-grid{grid-template-columns:1fr}
