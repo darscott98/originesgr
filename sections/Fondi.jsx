@@ -84,6 +84,11 @@ export default async function Fondi() {
               </div>
             ))}
           </div>
+
+          <div className="focus-sub reveal">
+            <span className="eyebrow">{t("sub3")}</span>
+            <p>{t("sub3Body")}</p>
+          </div>
         </div>
 
         <div className="fund-focus" style={{ marginTop: "var(--section-y)" }}>
