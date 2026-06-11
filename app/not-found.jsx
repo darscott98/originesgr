@@ -5,6 +5,7 @@
 // emits this as `out/404.html`, which static hosts serve for any unmatched URL.
 
 import "../styles/globals.css";
+import { fontVariables } from "./fonts";
 
 export const metadata = {
   title: "404 — Pagina non trovata · Origine SGR",
@@ -20,19 +21,7 @@ export const viewport = {
 
 export default function NotFound() {
   return (
-    <html lang="it">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,400&family=Open+Sans:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
-      </head>
+    <html lang="it" className={fontVariables}>
       <body>
         <main className="nf">
           <div className="nf-arcs" aria-hidden="true">

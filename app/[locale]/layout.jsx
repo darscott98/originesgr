@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+import { fontVariables } from "../fonts";
 
 // Runs synchronously in <head> before first paint: marks JS as available so the
 // reveal animations engage (CSS hides .reveal only under html.js), then sets a
@@ -17,7 +18,6 @@ const REVEAL_FAILSAFE =
   "var r=document.querySelectorAll('.reveal');" +
   "for(var i=0;i<r.length;i++){r[i].classList.add('in')}},2500)";
 
-// TODO: confirm the production domain before launch (used for canonical + OG URLs).
 const SITE_URL = "https://www.originesgr.com";
 
 export function generateStaticParams() {
@@ -69,19 +69,9 @@ export default async function LocaleLayout({ children, params }) {
   setRequestLocale(locale);
 
   return (
-    <html lang={locale} suppressHydrationWarning>
+    <html lang={locale} className={fontVariables} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: REVEAL_FAILSAFE }} />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,400&family=Open+Sans:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
       </head>
       <body>
         <NextIntlClientProvider>{children}</NextIntlClientProvider>

@@ -36,12 +36,12 @@
     "announcement": "Origine SGR avvia l'operatività del fondo di Private Equity, Origine Growth PE"
   },
   "intro": {
-    "title": "Una piattaforma per i private markets italiani.",
+    "title": "Una Piattaforma d'accesso ai Private Markets italiani.",
     "body": "Origine sviluppa una piattaforma d'investimento multi-asset dedicata agli investimenti nei private markets, già attiva nelle asset classes del Private Equity e Venture Capital e in fase di sviluppo e consolidamento in quelle del Real Estate, Infrastructure e Private Debt. Origine SGR combina eccellenza gestionale, rigorosa governance e competenze industriali, con l'obiettivo di sostenere la crescita dell'economia reale e generare rendimenti sostenibili nel tempo.",
     "pillars": [
       {
         "title": "Expertise dei Team di Investimento",
-        "body": "Team di investimento indipendente per ogni verticale in cui la SGR opera, con competenze uniche e distintive e focalizzazione piena ed esclusiva nella gestione di operazioni e nell'individuazione di opportunità strategiche, senza altri impegni nella gestione della SGR ma con tutto il suo supporto."
+        "body": "Team di investimento indipendenti per ogni verticale in cui la SGR opera, con competenze uniche e distintive e focalizzazione piena ed esclusiva nella gestione di operazioni e nell'individuazione di opportunità strategiche, senza altri impegni nella gestione della SGR ma con tutto il suo supporto."
       },
       {
         "title": "Origination",
@@ -64,12 +64,13 @@
     "boardTitle": "Consiglio d'Amministrazione",
     "roles": {
       "presidente": "Presidente",
-      "consigliere": "Consigliere"
+      "consigliere": "Consigliere",
+      "ceo": "Amministratore delegato"
     }
   },
   "fondi": {
     "title": "Fondi in gestione",
-    "intro": "Un'offerta in costante crescita lungo i private markets, tramite il lancio di nuovi fondi e operazioni di consolidamento attorno a verticali strategici per l'economia del Paese.",
+    "intro": "Un’offerta in costante evoluzione nei private markets, tramite il lancio di nuovi fondi e operazioni di consolidamento, rispettivamente in verticali industriali e asset classes, strategici per l’economia del Paese.",
     "funds": [
       {
         "state": "Operativo – In fase di investimento e raccolta",
@@ -89,7 +90,7 @@
     "focusBody": "Origine Growth PE Fund è un fondo di private equity PIR-compliant, focalizzato su imprese italiane ad alto potenziale. Attraverso strategie di crescita e consolidamento in comparti industriali strategici, il fondo mira a creare valore sostenibile e a rafforzare la competitività e l'autonomia industriale del sistema economico italiano ed europeo.",
     "sub1": "01 · Termini d'investimento",
     "metrics": [
-      { "ix": "Ticket", "v": "€20–45m", "l": "Range ticket d'investimento" },
+      { "ix": "Equity Ticket", "v": "€20–45m", "l": "Range ticket d'investimento" },
       { "ix": "Orizzonte temporale", "v": "4–6 anni", "l": "Periodo d'investimento" }
     ],
     "approach": [
@@ -97,31 +98,15 @@
       { "ix": "Focus geografico", "v": "Italia", "l": "Min. 70% Italia, max 30% Europa su base opportunistica." }
     ],
     "sub2Eyebrow": "02 · Settori target",
-    "sub2Body": "Il fondo si focalizza su quattro verticali, strategici per il rafforzamento della competitività e dell'autonomia industriale ed economica dell'Italia e dell'Europa.",
+    "sub2Body": "Il fondo si focalizza su quattro verticali, fondamentali per il rafforzamento della competitività e dell'autonomia industriale ed economica dell'Italia e dell'Europa.",
     "sectors": [
       { "title": "AgriFood B2B & Technology", "alt": "Agricoltura e tecnologia" },
       { "title": "Technology & Business Transformation", "alt": "Tecnologia e trasformazione digitale" },
       { "title": "Energy Transition & Related Services", "alt": "Transizione energetica" },
       { "title": "Aerospace, Defense & Safety", "alt": "Aerospazio e difesa" }
     ],
-    "sub3": "03 · Elementi distintivi",
-    "sub3Body": "Focus specialistico, competenze industriali e accesso proprietario alle opportunità: gli elementi che caratterizzano il portafoglio di Origine Growth PE.",
-    "distinctive": [
-      {
-        "title": "Posizionamento unico",
-        "body": "Focalizzazione su specifici verticali di investimento, supportata dall'expertise del team e da Operating Partner e Senior Advisor di alto profilo — riconosciuti leader industriali nei rispettivi settori — che contribuiscono all'individuazione, alla gestione e alla valorizzazione delle società in portafoglio, secondo un modello distintivo nel panorama del private equity italiano."
-      },
-      {
-        "title": "Capitale flessibile per supportare la crescita",
-        "body": "Approccio d'investimento caratterizzato da elevata flessibilità nell'utilizzo di strumenti e strutture di capitale, calibrati sulle esigenze specifiche delle imprese e degli imprenditori. Il fondo può investire attraverso partecipazioni di maggioranza o minoranza qualificata, strumenti di equity, quasi-equity e mezzanini, con l'obiettivo di accelerare la crescita organica, sostenere operazioni di buy and build e accompagnare percorsi di creazione di valore di lungo termine."
-      },
-      {
-        "title": "Pipeline proprietaria",
-        "body": "Grazie alla specializzazione settoriale, al network industriale e alle competenze del team, il fondo accede a opportunità di investimento proprietarie in comparti strategici e nicchie ad alto potenziale di crescita e consolidamento, spesso al di fuori dei tradizionali processi competitivi, consentendo un sourcing differenziato e una maggiore selettività negli investimenti."
-      }
-    ],
     "vcFocusEyebrow": "Focus — Origine VC Funds",
-    "vcFocusTitle": "Innovazione e crescita, in fase di valorizzazione.",
+    "vcFocusTitle": "Tecnologia, salute e crescita in fase di valorizzazione.",
     "vcFocusBody": "Un'iniziativa di Venture Capital focalizzata su innovazione e crescita, con una particolare attenzione ai settori MedTech e Life Sciences, attualmente in fase di disinvestimento e valorizzazione del portafoglio."
   },
   "esg": {
@@ -137,19 +122,21 @@
   },
   "team": {
     "title": "Il team",
-    "intro": "Professionisti con una comprovata esperienza nel private equity, nel venture capital e nell'industria, uniti da una collaborazione consolidata nel tempo.",
+    "intro": "Professionisti con una comprovata esperienza nel private equity, nel venture capital e nell'imprenditoria, uniti da una collaborazione consolidata nel tempo.",
     "groupPe": "Private Equity Team",
     "groupManagement": "Management",
-    "groupOperating": "Operating Partners",
-    "groupAdvisors": "Senior Advisors",
+    "groupAdvisors": "Senior Advisors - Origine Growth PE",
     "groupVc": "Venture Capital Team",
     "toggleShow": "Mostra profilo",
     "toggleHide": "Nascondi profilo",
     "bios": {
-      "sambuco": "Investment banker, principal investor e imprenditore con una consolidata esperienza maturata nel settore pubblico e privato, con particolare specializzazione nei comparti delle telecomunicazioni e della trasformazione digitale, dell'energia e della filiera agroalimentare. Nel corso della sua carriera ha ricoperto ruoli di primaria responsabilità, tra cui Senior Managing Director presso Macquarie, Socio Senior di Vitale & Co e responsabile del Dipartimento Telecomunicazioni del Ministero dello Sviluppo Economico (MISE).",
+      "sambuco": "Investment banker, principal investor e imprenditore con una consolidata esperienza maturata nel settore pubblico e privato, con particolare specializzazione nei comparti delle telecomunicazioni e della trasformazione digitale, dell'energia e della filiera agroalimentare. Nel corso della sua carriera ha ricoperto ruoli di primaria responsabilità, tra cui Senior Managing Director presso Macquarie, Socio Senior di Vitale & Co e capo del Dipartimento Telecomunicazioni del Ministero dello Sviluppo Economico (MISE).",
       "cenci": "Professionista con oltre 25 anni di esperienza nel settore finanziario, di cui più di 15 maturati nel Private Equity come principal investor in fondi d'investimento e 10 anni nell'investment banking presso Deutsche Bank. Nel corso della sua carriera ha ricoperto ruoli di rilievo nel mercato italiano del private equity, tra cui Investment Director presso Clessidra SGR e Partner di Armònia SGR.",
       "mineo": "Entrato in Origine nel maggio 2026 con il ruolo di Investment Manager, ha maturato circa nove anni di esperienza nel private equity mid-market italiano. Dopo le esperienze in Armònia SGR e in Entangled Capital SGR, ha preso parte a numerose operazioni di investimento di maggioranza in differenti settori industriali, seguendone tutte le principali fasi, dall'analisi e strutturazione dell'investimento alla gestione e valorizzazione delle partecipate. Ha inoltre supportato il management delle società in portafoglio nell'implementazione di iniziative strategiche e operative finalizzate alla creazione di valore.",
-      "tamburelli": "Ha maturato oltre cinque anni di esperienza in operazioni di M&A nel segmento mid-market presso Deloitte Financial Advisory, dove ha contribuito attivamente a numerose operazioni, sia sell-side che buy-side, assistendo imprenditori, fondi di private equity e operatori industriali. Nel corso della sua carriera ha sviluppato competenze nei settori ICT e cybersecurity, software e intelligenza artificiale, telecomunicazioni, AgriFood ed energy transition. Ha conseguito una laurea triennale presso l'ESCP Business School e un Master of Science in Corporate Finance & Banking all'EDHEC."
+      "arscott": "Daniel ha costruito il proprio percorso professionale nell’ambito dell’analisi dei dati, delle infrastrutture dati e dello sviluppo di sistemi tecnici, maturando esperienza in contesti finanziari, operativi e a diretto contatto con i clienti. Ha lavorato come project e data lead presso Deloitte e boutique firm nel settore FMCG, e più recentemente ha guidato attività di data pipeline strategy, architettura e implementazione di prodotto, nonché client delivery in ambienti SaaS. Ha conseguito un Master in Fisica presso l’Università di Bristol.",
+      "conte": "Marialiliana ha maturato una significativa esperienza nelle funzioni amministrative, finanziarie e operative nell'ambito della gestione di fondi di investimento alternativi, presso primarie SGR attive nel private equity e venture capital. Nel corso della carriera ha ricoperto ruoli di responsabilità quali Chief Financial Officer, Chief Operating Officer e Head of Administration presso realtà come Ambienta SGR, Hyle Capital Partners SGR e I2 Capital Partners SGR, sviluppando competenze anche in ambito ESG e risk management. In qualità di Chief Financial Officer della SGR, presidia le attività amministrative, finanziarie e operative, contribuendo all'efficienza dei processi e alla conformità normativa.",
+      "castelli": "Lorenzo ha maturato una significativa esperienza nel venture capital e negli investimenti alternativi in qualità di Co-Founder e Managing Director di Alchimia Investments, contribuendo alla costituzione e gestione di veicoli di investimento e alle attività di raccolta di capitali. Ha ricoperto incarichi come Managing Director e membro del Consiglio di Amministrazione di società in portafoglio e ha partecipato, come membro del team fondatore, al lancio di progetti di primaria rilevanza quali Arsenale Group e Orient Express La Dolce Vita. È inoltre docente ed esperto del settore Venture Capital presso l'Università Luiss.",
+      "venturelli": "Marco ha maturato una consolidata esperienza manageriale e finanziaria nel settore Life Sciences, ricoprendo il ruolo di Country CFO e Oncology Region Europe CFO presso Novartis. Nel corso della carriera ha sviluppato una solida esperienza nel supporto a iniziative imprenditoriali e di sviluppo aziendale, con un comprovato track record nella gestione finanziaria e nella crescita di organizzazioni operanti nel comparto healthcare e farmaceutico."
     }
   },
   "news": {

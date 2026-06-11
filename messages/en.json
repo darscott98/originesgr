@@ -36,7 +36,7 @@
     "announcement": "Origine SGR launches the operations of its Private Equity fund, Origine Growth PE"
   },
   "intro": {
-    "title": "A platform for Italy's private markets.",
+    "title": "An access platform to Italy's Private Markets.",
     "body": "Origine is building a multi-asset investment platform dedicated to the private markets, already active in the Private Equity and Venture Capital asset classes and developing and consolidating its presence in Real Estate, Infrastructure and Private Debt. Origine SGR combines management excellence, rigorous governance and industrial expertise, with the aim of supporting the growth of the real economy and generating sustainable returns over time.",
     "pillars": [
       {
@@ -64,7 +64,8 @@
     "boardTitle": "Board of Directors",
     "roles": {
       "presidente": "Chairman",
-      "consigliere": "Director"
+      "consigliere": "Director",
+      "ceo": "CEO"
     }
   },
   "fondi": {
@@ -89,7 +90,7 @@
     "focusBody": "Origine Growth PE Fund is a PIR-compliant private equity fund focused on high-potential Italian companies. Through growth and consolidation strategies in strategic industrial sectors, the fund aims to create sustainable value and to strengthen the competitiveness and industrial autonomy of the Italian and European economic system.",
     "sub1": "01 · Investment terms",
     "metrics": [
-      { "ix": "Ticket", "v": "€20–45m", "l": "Investment ticket range" },
+      { "ix": "Equity Ticket", "v": "€20–45m", "l": "Investment ticket range" },
       { "ix": "Time horizon", "v": "4–6 years", "l": "Investment period" }
     ],
     "approach": [
@@ -103,22 +104,6 @@
       { "title": "Technology & Business Transformation", "alt": "Technology and digital transformation" },
       { "title": "Energy Transition & Related Services", "alt": "Energy transition" },
       { "title": "Aerospace, Defense & Safety", "alt": "Aerospace and defence" }
-    ],
-    "sub3": "03 · Distinctive elements",
-    "sub3Body": "Specialist focus, industrial expertise and proprietary access to opportunities: the elements that define the Origine Growth PE portfolio.",
-    "distinctive": [
-      {
-        "title": "Unique positioning",
-        "body": "A focus on specific investment verticals, supported by the team's expertise and by high-profile Operating Partners and Senior Advisors — recognised industry leaders in their respective sectors — who contribute to the identification, management and enhancement of portfolio companies, in a model that is distinctive within the Italian private equity landscape."
-      },
-      {
-        "title": "Flexible capital to support growth",
-        "body": "An investment approach characterised by a high degree of flexibility in the use of capital instruments and structures, tailored to the specific needs of companies and entrepreneurs. The fund can invest through majority or qualified-minority stakes, equity, quasi-equity and mezzanine instruments, with the aim of accelerating organic growth, supporting buy-and-build operations and accompanying long-term value-creation paths."
-      },
-      {
-        "title": "Proprietary pipeline",
-        "body": "Thanks to its sector specialisation, industrial network and the team's expertise, the fund accesses proprietary investment opportunities in strategic sectors and niches with high growth and consolidation potential, often outside the traditional competitive processes, enabling differentiated sourcing and greater selectivity in its investments."
-      }
     ],
     "vcFocusEyebrow": "Focus — Origine VC Funds",
     "vcFocusTitle": "Innovation and growth, in the value-creation phase.",
@@ -140,8 +125,7 @@
     "intro": "Professionals with proven experience in private equity, venture capital and industry, united by a collaboration consolidated over time.",
     "groupPe": "Private Equity Team",
     "groupManagement": "Management",
-    "groupOperating": "Operating Partners",
-    "groupAdvisors": "Senior Advisors",
+    "groupAdvisors": "Senior Advisors - Origine Growth PE",
     "groupVc": "Venture Capital Team",
     "toggleShow": "Show profile",
     "toggleHide": "Hide profile",
@@ -149,7 +133,10 @@
       "sambuco": "Investment banker, principal investor and entrepreneur with consolidated experience across the public and private sectors, with particular specialisation in telecommunications and digital transformation, energy and the agri-food supply chain. Over his career he has held senior roles, including Senior Managing Director at Macquarie, Senior Partner at Vitale & Co and Head of the Telecommunications Department at the Italian Ministry of Economic Development (MISE).",
       "cenci": "A professional with over 25 years of experience in the financial sector, more than 15 of them in Private Equity as a principal investor in investment funds and 10 years in investment banking at Deutsche Bank. Over his career he has held prominent roles in the Italian private equity market, including Investment Director at Clessidra SGR and Partner at Armònia SGR.",
       "mineo": "He joined Origine in May 2026 as Investment Manager, having built around nine years of experience in the Italian mid-market private equity sector. Following roles at Armònia SGR and Entangled Capital SGR, he has taken part in numerous majority investment transactions across different industrial sectors, following all their key phases, from analysing and structuring the investment to managing and enhancing portfolio companies. He has also supported the management of portfolio companies in implementing strategic and operational value-creation initiatives.",
-      "tamburelli": "He has built over five years of experience in mid-market M&A transactions at Deloitte Financial Advisory, where he actively contributed to numerous deals, both sell-side and buy-side, advising entrepreneurs, private equity funds and industrial players. Over his career he has developed expertise in the ICT and cybersecurity, software and artificial intelligence, telecommunications, AgriFood and energy transition sectors. He holds a bachelor's degree from ESCP Business School and a Master of Science in Corporate Finance & Banking from EDHEC."
+      "arscott": "Daniel has built his career across data analysis, data infrastructure, and technical systems development, with experience spanning financial, operational, and client-facing environments. He has worked as a project and data lead at Deloitte and boutique firms in the FMCG sector, and more recently has led data pipeline strategy, product architecture and implementation, and client delivery within SaaS environments. He holds a Master’s degree in Physics from the University of Bristol.",
+      "conte": "Marialiliana has built significant experience across administrative, financial and operational functions within the management of alternative investment funds, at leading asset managers active in private equity and venture capital. Over her career she has held senior roles including Chief Financial Officer, Chief Operating Officer and Head of Administration at firms such as Ambienta SGR, Hyle Capital Partners SGR and I2 Capital Partners SGR, also developing expertise in ESG and risk management. As Chief Financial Officer of the SGR, she oversees its administrative, financial and operational activities, contributing to process efficiency and regulatory compliance.",
+      "castelli": "Lorenzo has built significant experience in venture capital and alternative investments as Co-Founder and Managing Director of Alchimia Investments, contributing to the establishment and management of investment vehicles and to capital-raising activities. He has served as Managing Director and board member of portfolio companies and, as a founding-team member, took part in the launch of major projects such as Arsenale Group and Orient Express La Dolce Vita. He is also a lecturer and Venture Capital expert at Luiss University.",
+      "venturelli": "Marco has built consolidated managerial and financial experience in the Life Sciences sector, serving as Country CFO and Oncology Region Europe CFO at Novartis. Over his career he has developed solid experience in supporting entrepreneurial and business-development initiatives, with a proven track record in financial management and in growing organisations across the healthcare and pharmaceutical sector."
     }
   },
   "news": {

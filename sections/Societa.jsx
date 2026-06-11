@@ -3,7 +3,7 @@ import { getTranslations } from "next-intl/server";
 // Board members are proper nouns; their role maps to a translated label.
 const board = [
   { name: "Giuseppe Donagemma", role: "presidente" },
-  { name: "Roberto Sambuco", role: "consigliere" },
+  { name: "Roberto Sambuco", role: "ceo" },
   { name: "Dario Cenci", role: "consigliere" },
   { name: "Alessandra Cassone", role: "consigliere" },
   { name: "Roberto Sergio", role: "consigliere" },

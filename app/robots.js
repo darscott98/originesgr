@@ -1,4 +1,3 @@
-// Confirm the production domain before launch (must match layout.jsx SITE_URL).
 const SITE_URL = "https://www.originesgr.com";
 
 // Required for `output: "export"` — generate this route statically at build time.
