@@ -32,7 +32,7 @@ export default async function Fondi() {
                 <h3>{fund.title}</h3>
                 <p>{fund.body}</p>
               </div>
-              <span className="fund-cat">{fund.cat}</span>
+              <span className={`fund-cat ${fundTags[i]}`}>{fund.cat}</span>
             </div>
           ))}
         </div>
