@@ -36,8 +36,8 @@
     "announcement": "Origine SGR avvia l'operatività del fondo di Private Equity, Origine Growth PE"
   },
   "intro": {
-    "title": "Una Piattaforma d'accesso ai Private Markets italiani.",
-    "body": "Origine sviluppa una piattaforma d'investimento multi-asset dedicata agli investimenti nei private markets, già attiva nelle asset classes del Private Equity e Venture Capital e in fase di sviluppo e consolidamento in quelle del Real Estate, Infrastructure e Private Debt. Origine SGR combina eccellenza gestionale, rigorosa governance e competenze industriali, con l'obiettivo di sostenere la crescita dell'economia reale e generare rendimenti sostenibili nel tempo.",
+    "title": "Una Piattaforma d'Accesso ai Private Markets Italiani.",
+    "body": "Origine sviluppa una piattaforma d'investimento multi-asset dedicata ai private markets, già attiva nelle asset class del Private Equity e del Venture Capital e in fase di sviluppo e consolidamento in ulteriori asset class complementari. Origine SGR combina eccellenza gestionale, rigorosa governance e competenze industriali, con l'obiettivo di sostenere la crescita dell'economia reale e generare rendimenti sostenibili nel tempo.",
     "pillars": [
       {
         "title": "Expertise dei Team di Investimento",
@@ -104,6 +104,22 @@
       { "title": "Technology & Business Transformation", "alt": "Tecnologia e trasformazione digitale" },
       { "title": "Energy Transition & Related Services", "alt": "Transizione energetica" },
       { "title": "Aerospace, Defense & Safety", "alt": "Aerospazio e difesa" }
+    ],
+    "sub3": "03 · Approccio distintivo",
+    "sub3Body": "Un modello operativo che unisce capitale paziente, competenze industriali e una governance rigorosa per accompagnare le imprese nei loro percorsi di crescita e consolidamento.",
+    "distinctive": [
+      {
+        "title": "Approccio industriale",
+        "body": "Team d'investimento dedicati, affiancati da Operating Partners e Senior Advisors, per una gestione attiva e la creazione di valore lungo l'intero ciclo d'investimento."
+      },
+      {
+        "title": "Crescita e consolidamento",
+        "body": "Strategie di buy & build nei verticali strategici, per costruire campioni industriali competitivi a livello nazionale ed europeo."
+      },
+      {
+        "title": "Valore sostenibile",
+        "body": "Integrazione di criteri ESG e di una governance rigorosa, con l'obiettivo di generare rendimenti solidi e duraturi nel tempo."
+      }
     ],
     "vcFocusEyebrow": "Focus — Origine VC Funds",
     "vcFocusTitle": "Tecnologia, salute e crescita in fase di valorizzazione.",

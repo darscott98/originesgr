@@ -36,8 +36,8 @@
     "announcement": "Origine SGR launches the operations of its Private Equity fund, Origine Growth PE"
   },
   "intro": {
-    "title": "An access platform to Italy's Private Markets.",
-    "body": "Origine is building a multi-asset investment platform dedicated to the private markets, already active in the Private Equity and Venture Capital asset classes and developing and consolidating its presence in Real Estate, Infrastructure and Private Debt. Origine SGR combines management excellence, rigorous governance and industrial expertise, with the aim of supporting the growth of the real economy and generating sustainable returns over time.",
+    "title": "A Platform to Access Italy's Private Markets.",
+    "body": "Origine is building a multi-asset investment platform dedicated to the private markets, already active in the Private Equity and Venture Capital asset classes and developing and consolidating its presence across further complementary asset classes. Origine SGR combines management excellence, rigorous governance and industrial expertise, with the aim of supporting the growth of the real economy and generating sustainable returns over time.",
     "pillars": [
       {
         "title": "Investment Teams' Expertise",
@@ -104,6 +104,22 @@
       { "title": "Technology & Business Transformation", "alt": "Technology and digital transformation" },
       { "title": "Energy Transition & Related Services", "alt": "Energy transition" },
       { "title": "Aerospace, Defense & Safety", "alt": "Aerospace and defence" }
+    ],
+    "sub3": "03 · A distinctive approach",
+    "sub3Body": "An operating model that combines patient capital, industrial expertise and rigorous governance to support companies along their growth and consolidation journeys.",
+    "distinctive": [
+      {
+        "title": "Industrial approach",
+        "body": "Dedicated investment teams, supported by Operating Partners and Senior Advisors, for active management and value creation across the entire investment cycle."
+      },
+      {
+        "title": "Growth and consolidation",
+        "body": "Buy-and-build strategies across strategic verticals, to build industrial champions that compete at national and European level."
+      },
+      {
+        "title": "Sustainable value",
+        "body": "Integration of ESG criteria and rigorous governance, with the aim of generating solid, lasting returns over time."
+      }
     ],
     "vcFocusEyebrow": "Focus — Origine VC Funds",
     "vcFocusTitle": "Innovation and growth, in the value-creation phase.",

@@ -6,6 +6,8 @@ import TeamMember from "@/components/TeamMember";
 const management = [
   { ini: "RS", name: "Roberto Sambuco", role: "CEO", img: "/images/Roberto-Sambuco.png" },
   { ini: "MC", name: "Marialiliana Conte", role: "CFO", bioKey: "conte", img: "/images/Marialiliana-Conte.png" },
+  // role is locale-aware: IT shows "Gestione dei fondi", EN "Fund Manager".
+  { ini: "TS", name: "Teresa Sanseverino", role: { it: "Gestione dei fondi", en: "Fund Manager" }, img: "/images/Teresa-Sanseverino.png" },
   { ini: "MU", name: "Maria José Ullauri", role: "Executive Assistant" },
   { ini: "DA", name: "Daniel Arscott", role: "Chief Data Analyst", bioKey: "arscott", img: "/images/Daniel-Arscott.png" },
 ];
@@ -14,8 +16,6 @@ const peTeam = [
   { ini: "RS", name: "Roberto Sambuco", role: "Senior Partner", bioKey: "sambuco", img: "/images/Roberto-Sambuco.png" },
   { ini: "DC", name: "Dario Cenci", role: "Senior Partner", bioKey: "cenci", img: "/images/Dario-Cenci.png" },
   { ini: "MM", name: "Micki Mineo", role: "Investment Manager", bioKey: "mineo", img: "/images/Micki-Mineo.png" },
-  // role is locale-aware (bio to follow): IT shows "Gestione dei fondi", EN "Fund Manager".
-  { ini: "TS", name: "Teresa Sanseverino", role: { it: "Gestione dei fondi", en: "Fund Manager" } },
 ];
 
 const seniorAdvisors = [
