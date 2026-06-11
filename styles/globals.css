@@ -452,7 +452,7 @@ section[id]{scroll-margin-top:88px}
 .contact h2{font-size:clamp(2.8rem,7.6vw,6.2rem);font-weight:500;line-height:1.02;letter-spacing:-.015em;color:var(--ink);margin-top:1.9rem}
 .contact h2 em{font-style:italic;color:var(--gold-d);font-weight:500}
 .contact .mail{margin-top:clamp(1.8rem,4vh,2.6rem);font-family:var(--font-fraunces),serif;font-size:clamp(1.35rem,2.8vw,2rem);color:var(--gold-d);font-style:italic;font-weight:400;display:inline-flex;align-items:center;gap:.6em;border-bottom:1px solid transparent;transition:border-color .4s var(--ease),gap .4s var(--ease)}
-.contact .mail::after{content:"↗";font-style:normal;font-size:.7em;color:var(--gold-d)}
+.contact .mail::after{content:"\2197\FE0E";font-style:normal;font-size:.7em;color:var(--gold-d)}
 .contact .mail:hover{border-color:var(--gold-d);gap:.85em}
 .contact-side{padding-bottom:.5rem}
 .contact-side p{position:relative;color:var(--paper-soft);font-size:clamp(1.02rem,1.35vw,1.16rem);line-height:1.8;max-width:32ch;padding-top:1.7rem}
@@ -529,6 +529,11 @@ footer .wrap{position:relative;z-index:1}
   .stats{grid-template-columns:1fr 1fr}
   .foot-top{grid-template-columns:1fr;gap:2.4rem}
   .foot-bottom{flex-direction:column;gap:1.2rem}
+  /* let long section headings wrap instead of overflowing the viewport */
+  .board-head{flex-wrap:wrap;gap:1rem}
+  .board-head h3{white-space:normal;font-size:clamp(1.7rem,7vw,2.5rem)}
+  .team-sub{flex-wrap:wrap;gap:1rem}
+  .team-sub h3{white-space:normal;font-size:clamp(1.2rem,5.5vw,1.5rem)}
 }
 @media(max-width:480px){
   .sectors,.team-grid{grid-template-columns:1fr}
