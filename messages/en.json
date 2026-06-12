@@ -90,12 +90,12 @@
     "focusBody": "Origine Growth PE Fund is a PIR-compliant private equity fund focused on high-potential Italian companies. Through growth and consolidation strategies in strategic industrial sectors, the fund aims to create sustainable value and to strengthen the competitiveness and industrial autonomy of the Italian and European economic system.",
     "sub1": "01 · Investment terms",
     "metrics": [
-      { "ix": "Equity Ticket", "v": "€20–45m", "l": "Investment ticket range" },
-      { "ix": "Time horizon", "v": "4–6 years", "l": "Investment period" }
+      { "ix": "Equity Ticket", "v": "€20–45m", "l": "Investment ticket range." },
+      { "ix": "Time Horizon", "v": "4–6 years", "l": "Investment Period." }
     ],
     "approach": [
       { "ix": "Strategy", "v": "Buyout & Growth Capital", "l": "Majority stakes (incl. LBO), qualified minorities and other equity instruments." },
-      { "ix": "Geographic focus", "v": "Italy", "l": "Min. 70% Italy, max 30% Europe on an opportunistic basis." }
+      { "ix": "Geographic Focus", "v": "Italy", "l": "Min. 70% Italy, max 30% Europe on an opportunistic basis." }
     ],
     "sub2Eyebrow": "02 · Target sectors",
     "sub2Body": "The fund focuses on four verticals, strategic to strengthening the industrial and economic competitiveness and autonomy of Italy and Europe.",

@@ -79,7 +79,6 @@ export default async function Fondi() {
             {sectors.map((sector, i) => (
               <div key={sectorMeta[i].si} className={`sector reveal${i ? ` d${i}` : ""}`}>
                 <img src={sectorMeta[i].img} alt={sector.alt} />
-                <span className="si">{sectorMeta[i].si}</span>
                 <h4>{sector.title}</h4>
                 <div className="ln" />
               </div>
