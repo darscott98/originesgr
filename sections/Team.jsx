@@ -8,7 +8,7 @@ const management = [
   { ini: "MC", name: "Marialiliana Conte", role: "CFO", bioKey: "conte", img: "/images/Marialiliana-Conte.png" },
   // role is locale-aware: IT shows "Gestione dei fondi", EN "Fund Manager".
   { ini: "TS", name: "Teresa Sanseverino", role: { it: "Gestione dei fondi", en: "Fund Manager" }, img: "/images/Teresa-Sanseverino.png" },
-  { ini: "MU", name: "Maria José Ullauri", role: "Executive Assistant", bioKey: "ullauri", img: "/images/Maria-Jose-Ullauri.png" },
+  { ini: "MU", name: "Maria José Ullauri", role: "Executive Assistant", bioKey: "ullauri", img: "/images/Maria-Jose-Ullauri.jpg" },
   { ini: "DA", name: "Daniel Arscott", role: "Chief Data Analyst", bioKey: "arscott", img: "/images/Daniel-Arscott.png" },
 ];
 
