@@ -1,7 +1,7 @@
 {
   "meta": {
     "homeTitle": "Origine SGR — Multi-asset investment platform",
-    "homeDescription": "Origine SGR brings together private and institutional capital with best-in-class industrial and financial expertise to create sustainable value and strengthen the Italian entrepreneurial system.",
+    "homeDescription": "Origine SGR brings together private and institutional capital with best-in-class industrial and financial expertise to create sustainable value and strengthen the Italian entrepreneurial ecosystem.",
     "portfolioTitle": "Portfolio — Origine SGR",
     "portfolioDescription": "The Origine SGR portfolio: companies held across the Technology, MedTech and Life Sciences segments."
   },
@@ -141,7 +141,7 @@
     "intro": "Professionals with proven experience in private equity, venture capital and industry, united by a collaboration consolidated over time.",
     "groupPe": "Private Equity Team",
     "groupManagement": "Management",
-    "groupAdvisors": "Senior Advisors - Origine Growth PE",
+    "groupAdvisors": "Operating Partners & Senior Advisors – Origine Growth PE",
     "groupVc": "Venture Capital Team",
     "toggleShow": "Show profile",
     "toggleHide": "Hide profile",
@@ -176,6 +176,7 @@
     "linkEsg": "ESG",
     "linkTeam": "Team",
     "linkPortfolio": "Portfolio",
+    "linkNews": "News",
     "contactsHeader": "Contact",
     "disclaimer": "Origine SGR S.p.A. — Asset Management Company (Società di Gestione del Risparmio). The information contained on this site is for illustrative purposes only and does not constitute a public offering or financial advice.",
     "privacy": "Privacy Policy",

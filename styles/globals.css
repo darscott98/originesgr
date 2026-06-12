@@ -270,7 +270,11 @@ section[id]{scroll-margin-top:88px}
 .tag.scout{color:var(--paper-soft)}
 .fund-row h3{font-size:1.6rem;font-weight:500;margin-bottom:.4rem;color:var(--ink)}
 .fund-row p{color:var(--paper-soft);font-size:.95rem;max-width:48ch}
-.fund-cat{justify-self:end;text-align:right;font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:var(--paper-soft);white-space:nowrap}
+/* render the category as a distinct pill badge */
+.fund-cat{justify-self:end;align-self:center;text-align:center;display:inline-block;padding:.4rem .85rem;border:1px solid rgba(150,112,41,.35);border-radius:999px;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--gold-d);background:rgba(201,161,78,.08);white-space:nowrap}
+.dark .fund-cat{color:var(--gold-l);border-color:rgba(226,192,116,.35);background:rgba(226,192,116,.08)}
+/* exit funds (e.g. Venture Capital) match the divestment state colour */
+.fund-cat.exit,.dark .fund-cat.exit{color:#5d847e;border-color:rgba(93,132,126,.4);background:rgba(93,132,126,.1)}
 
 /* ---------- KEY TERMS (indexed ledger cards) ---------- */
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:var(--head-gap);border-top:1px solid var(--ink)}
@@ -519,11 +523,8 @@ footer .wrap{position:relative;z-index:1}
 }
 @media(max-width:720px){
   .fund-row{grid-template-columns:1fr;gap:.8rem}
-  /* render the category as a distinct pill badge once the row stacks */
-  .fund-cat{justify-self:start;text-align:left;align-self:start;display:inline-block;padding:.4rem .85rem;border:1px solid rgba(150,112,41,.35);border-radius:999px;color:var(--gold-d);background:rgba(201,161,78,.08);letter-spacing:.14em;white-space:normal}
-  .dark .fund-cat{color:var(--gold-l);border-color:rgba(226,192,116,.35);background:rgba(226,192,116,.08)}
-  /* exit funds (e.g. Venture Capital) match the divestment state colour */
-  .fund-cat.exit,.dark .fund-cat.exit{color:#5d847e;border-color:rgba(93,132,126,.4);background:rgba(93,132,126,.1)}
+  /* badge stacks to the left once the row collapses */
+  .fund-cat{justify-self:start;text-align:left;align-self:start;white-space:normal}
   .approach{grid-template-columns:1fr}
   .approach .ap{border-right:0;padding:1.4rem 0 0}
   .approach .ap:last-child{padding-left:0}

@@ -19,7 +19,7 @@ const peTeam = [
 ];
 
 const seniorAdvisors = [
-  { ini: "PG", name: "Paolo Gallo", role: "Senior Advisor" },
+  { ini: "DP", name: "Dario Pardi", role: "Operating Partner" },
   { ini: "GF", name: "Giorgio Furlani", role: "Senior Advisor" },
   { ini: "RS", name: "Roberto Sergio", role: "Senior Advisor" },
 ];

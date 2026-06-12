@@ -36,6 +36,7 @@ export default async function Footer() {
               <li><Link href="/#team">{t("linkTeam")}</Link></li>
               <li><Link href="/portfolio">{t("linkPortfolio")}</Link></li>
               <li><Link href="/#esg">{t("linkEsg")}</Link></li>
+              <li><Link href="/#news">{t("linkNews")}</Link></li>
             </ul>
           </nav>
 
