@@ -1,0 +1,5 @@
+# Cloudflare Pages redirects. Forward legacy locale URLs (language-region
+# format, e.g. /it-it) that Google still has indexed to the current locale
+# routes (/it). 301 = permanent, so search engines update their index.
+/it-it/*  /it/:splat  301
+/it-it    /it/        301
