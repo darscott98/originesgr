@@ -30,7 +30,24 @@ export const tabs = [
   { id: "digital", items: digital },
 ];
 
+// Origine Growth PE — Private Equity book. Company names + logo files are proper
+// nouns and live here; each `key` maps to the translated description + status
+// under the `portfolio.companies` message namespace. Logo files belong in
+// /public/images/ (see `logos[].src`); a text fallback shows until they exist.
+export const privateEquity = [
+  {
+    key: "martini",
+    name: "F.lli Martini S.p.A. | BF International",
+    logos: [
+      { src: "/images/bf-international-logo.png", alt: "BF International" },
+      { src: "/images/gruppo-martini-logo.png", alt: "Gruppo Martini" },
+    ],
+  },
+];
+
 export const portfolioTotals = {
-  total: medtech.length + digital.length,
+  total: medtech.length + digital.length + privateEquity.length,
+  pe: privateEquity.length,
+  vc: medtech.length + digital.length,
   areas: tabs.length,
 };

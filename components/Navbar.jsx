@@ -10,11 +10,39 @@ const links = [
   { key: "societa", href: "/#societa" },
   { key: "fondi", href: "/#fondi" },
   { key: "team", href: "/#team" },
-  { key: "portfolio", href: "/portfolio" },
+  {
+    key: "portfolio",
+    href: "/portfolio",
+    children: [
+      { key: "portfolioPe", href: "/portfolio#private-equity" },
+      { key: "portfolioVc", href: "/portfolio#venture-capital" },
+    ],
+  },
   { key: "esg", href: "/#esg" },
   { key: "news", href: "/#news" },
   { key: "contatti", href: "/#contatti", cta: true },
 ];
+
+function Caret() {
+  return (
+    <svg
+      className="nav-caret"
+      width="10"
+      height="6"
+      viewBox="0 0 10 6"
+      fill="none"
+      aria-hidden="true"
+    >
+      <path
+        d="M1 1l4 4 4-4"
+        stroke="currentColor"
+        strokeWidth="1.3"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
 
 export default function Navbar() {
   const t = useTranslations("nav");
@@ -62,15 +90,31 @@ export default function Navbar() {
           </Link>
 
           <nav className="navlinks" aria-label={t("ariaMain")}>
-            {links.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className={link.cta ? "nav-cta" : undefined}
-              >
-                {t(link.key)}
-              </Link>
-            ))}
+            {links.map((link) =>
+              link.children ? (
+                <div key={link.href} className="nav-dd">
+                  <Link href={link.href} className="nav-dd-trigger">
+                    {t(link.key)}
+                    <Caret />
+                  </Link>
+                  <div className="nav-dd-menu" role="menu">
+                    {link.children.map((child) => (
+                      <Link key={child.href} href={child.href} role="menuitem">
+                        {t(child.key)}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              ) : (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className={link.cta ? "nav-cta" : undefined}
+                >
+                  {t(link.key)}
+                </Link>
+              )
+            )}
             <LocaleSwitcher />
           </nav>
 
@@ -99,16 +143,31 @@ export default function Navbar() {
       >
         <div className="mobile-menu-backdrop" onClick={close} />
         <nav className="mobile-menu-panel" aria-label={t("ariaMenu")}>
-          {links.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className={link.cta ? "nav-cta" : undefined}
-              onClick={close}
-            >
-              {t(link.key)}
-            </Link>
-          ))}
+          {links.map((link) =>
+            link.children ? (
+              <div key={link.href} className="mobile-group">
+                <Link href={link.href} onClick={close}>
+                  {t(link.key)}
+                </Link>
+                <div className="mobile-sub">
+                  {link.children.map((child) => (
+                    <Link key={child.href} href={child.href} onClick={close}>
+                      {t(child.key)}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            ) : (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={link.cta ? "nav-cta" : undefined}
+                onClick={close}
+              >
+                {t(link.key)}
+              </Link>
+            )
+          )}
           <LocaleSwitcher />
         </nav>
       </div>

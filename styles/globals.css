@@ -71,6 +71,22 @@ header:not(.scrolled) .nav-cta:hover{background:var(--gold);border-color:var(--g
 .navlinks .locale-link.active{opacity:1;color:var(--gold-d)}
 header:not(.scrolled) .navlinks .locale-link.active{color:var(--gold-l)}
 
+/* portfolio dropdown — desktop. Hover/focus-within reveals the strategy menu;
+   the trigger itself still links straight to /portfolio. */
+.nav-dd{position:relative;display:inline-flex;align-items:center}
+.nav-dd-trigger{display:inline-flex;align-items:center;gap:.4em}
+.nav-caret{transition:transform .3s var(--ease);opacity:.8}
+.nav-dd:hover .nav-caret,.nav-dd:focus-within .nav-caret{transform:rotate(180deg)}
+.nav-dd-menu{position:absolute;top:100%;left:50%;transform:translate(-50%,8px);min-width:200px;margin-top:.7rem;padding:.5rem;background:var(--ink);border:1px solid var(--line);border-radius:10px;box-shadow:0 24px 50px -24px rgba(0,0,0,.6);display:flex;flex-direction:column;gap:.1rem;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .3s var(--ease),transform .3s var(--ease)}
+/* transparent bridge across the gap so hover isn't lost moving to the menu */
+.nav-dd-menu::before{content:"";position:absolute;bottom:100%;left:0;right:0;height:1rem}
+.nav-dd:hover .nav-dd-menu,.nav-dd:focus-within .nav-dd-menu{opacity:1;visibility:visible;pointer-events:auto;transform:translate(-50%,0)}
+/* dropdown sits on a dark panel regardless of header scroll state, so force
+   light text / gold hover past the .navlinks colour rules */
+.nav-dd-menu a{padding:.6rem .8rem !important;border-radius:6px;font-size:.82rem;color:rgba(250,250,250,.78) !important;white-space:nowrap;transition:background .25s var(--ease),color .25s var(--ease)}
+.nav-dd-menu a::after{display:none}
+.nav-dd-menu a:hover{background:rgba(255,255,255,.06);color:var(--gold-l) !important}
+
 /* burger — base hidden; the mobile-menu media block below flips it to flex */
 .burger{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:8px;position:relative;z-index:1}
 .burger span{width:26px;height:2px;background:var(--ink);transition:background .3s var(--ease),transform .3s var(--ease),opacity .3s var(--ease)}
@@ -101,6 +117,11 @@ header:not(.scrolled) .burger span{background:var(--white)}
   .mobile-menu-panel a:not(.nav-cta){font-family:var(--font-fraunces);font-size:1.55rem;font-weight:400;color:var(--white);letter-spacing:.01em;transition:color .3s var(--ease)}
   .mobile-menu-panel a:not(.nav-cta):hover,.mobile-menu-panel a:not(.nav-cta):focus-visible{color:var(--gold-l)}
   .mobile-menu-panel .nav-cta{margin:.6rem 0 0;color:var(--gold-l)!important;border-color:var(--gold)}
+
+  /* portfolio group on mobile — parent link with its strategies listed beneath */
+  .mobile-group{display:flex;flex-direction:column;align-items:flex-start;gap:.9rem}
+  .mobile-sub{display:flex;flex-direction:column;align-items:flex-start;gap:.7rem;padding-left:1rem;border-left:1px solid var(--line)}
+  .mobile-menu-panel .mobile-sub a:not(.nav-cta){font-size:1.05rem;color:rgba(250,250,250,.7)}
 
   .mobile-menu-panel .locale-switcher{flex-direction:row;gap:1.2rem;margin-top:.4rem}
   .mobile-menu-panel .locale-switcher .locale-link{font-family:var(--font-open-sans);font-size:.9rem;font-weight:600;letter-spacing:.12em;color:rgba(250,250,250,.55)}
@@ -605,6 +626,22 @@ footer .wrap{position:relative;z-index:1}
 .pf-desc{font-size:.92rem;color:var(--paper-soft);line-height:1.6}
 .pf-status{display:inline-block;margin-top:.9rem;font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:var(--gold-d);border:1px solid rgba(150,112,41,.35);border-radius:2px;padding:.3rem .6rem}
 
+/* portfolio strategies — top-level switch between Private Equity & Venture Capital */
+.pf-divisions{display:inline-flex;gap:.4rem;padding:.4rem;margin-bottom:clamp(2rem,4vh,3rem);background:var(--paper-2);border:1px solid var(--paper-line);border-radius:999px}
+.pf-division{appearance:none;border:0;cursor:pointer;font-family:var(--font-open-sans);font-size:.82rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--paper-soft);background:transparent;padding:.7rem 1.5rem;border-radius:999px;transition:background .35s var(--ease),color .35s var(--ease)}
+.pf-division:hover{color:var(--ink)}
+.pf-division[aria-selected="true"]{background:var(--ink);color:var(--white)}
+.pf-division-panel{display:none}
+.pf-division-panel.active{display:block;animation:pfFade .5s var(--ease)}
+.pf-division-intro{max-width:62ch;color:var(--paper-soft);font-size:1.02rem;line-height:1.65;margin-bottom:clamp(2rem,4vh,3rem)}
+
+/* private equity card — reuses the VC .pf-card layout with a logo lockup added */
+.pf-logos{display:flex;align-items:center;flex-wrap:wrap;gap:1rem 1.2rem;margin-bottom:1.1rem}
+.pf-logo{max-height:34px;width:auto;object-fit:contain}
+.pf-logo-fallback{font-family:var(--font-fraunces);font-size:1rem;font-weight:500;color:var(--ink);letter-spacing:.01em}
+/* the PE description runs longer than the VC blurbs — give it more room when open */
+.pf-card-logos.open .pf-body{max-height:640px}
+
 /* CTA band */
 .pf-cta{background:var(--ink);color:var(--white);padding:clamp(4rem,10vh,7rem) 0;position:relative;overflow:hidden}
 .pf-cta .arcs{position:absolute;left:-8%;bottom:-50%;width:520px;height:520px;z-index:0;opacity:.4;pointer-events:none}
@@ -618,4 +655,6 @@ footer .wrap{position:relative;z-index:1}
 @media(max-width:600px){
   .pf-grid{grid-template-columns:1fr}
   .pf-tab{margin-right:1rem;font-size:.92rem}
+  .pf-divisions{display:flex;width:100%}
+  .pf-division{flex:1;padding:.7rem .6rem;text-align:center}
 }

@@ -58,8 +58,16 @@ export default async function PortfolioPage({ params }) {
             <p className="reveal d2">{t("intro")}</p>
             <div className="pf-metrics reveal d3">
               <div className="pf-metric">
-                <div className="v">{portfolioTotals.total}</div>
-                <div className="l">{t("metricCompaniesLabel")}</div>
+                <div className="v">
+                  {String(portfolioTotals.pe).padStart(2, "0")}
+                </div>
+                <div className="l">{t("divisions.pe")}</div>
+              </div>
+              <div className="pf-metric">
+                <div className="v">
+                  {String(portfolioTotals.vc).padStart(2, "0")}
+                </div>
+                <div className="l">{t("divisions.vc")}</div>
               </div>
             </div>
           </div>

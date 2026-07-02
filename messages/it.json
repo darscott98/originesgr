@@ -17,7 +17,10 @@
     "menuOpen": "Apri il menu",
     "menuClose": "Chiudi il menu",
     "ariaMain": "Navigazione principale",
-    "ariaMenu": "Menu"
+    "ariaMenu": "Menu",
+    "portfolioPe": "Private Equity",
+    "portfolioVc": "Venture Capital",
+    "ariaPortfolio": "Strategie di portfolio"
   },
   "localeSwitcher": {
     "label": "Cambia lingua",
@@ -90,20 +93,48 @@
     "focusBody": "Origine Growth PE Fund è un fondo di private equity PIR-compliant, focalizzato su imprese italiane ad alto potenziale. Attraverso strategie di crescita e consolidamento in comparti industriali strategici, il fondo mira a creare valore sostenibile e a rafforzare la competitività e l'autonomia industriale del sistema economico italiano ed europeo.",
     "sub1": "01 · Termini d'investimento",
     "metrics": [
-      { "ix": "Equity Ticket", "v": "€20–45m", "l": "Range Ticket d'investimento." },
-      { "ix": "Orizzonte Temporale", "v": "4–6 anni", "l": "Periodo d'investimento." }
+      {
+        "ix": "Equity Ticket",
+        "v": "€20–45m",
+        "l": "Range Ticket d'investimento."
+      },
+      {
+        "ix": "Orizzonte Temporale",
+        "v": "4–6 anni",
+        "l": "Periodo d'investimento."
+      }
     ],
     "approach": [
-      { "ix": "Strategia", "v": "Buyout & Growth Capital", "l": "Maggioranze (incl. LBO), minoranze qualificate e altri strumenti partecipativi." },
-      { "ix": "Focus Geografico", "v": "Italia", "l": "Min. 70% Italia, max 30% Europa su base opportunistica." }
+      {
+        "ix": "Strategia",
+        "v": "Buyout & Growth Capital",
+        "l": "Maggioranze (incl. LBO), minoranze qualificate e altri strumenti partecipativi."
+      },
+      {
+        "ix": "Focus Geografico",
+        "v": "Italia",
+        "l": "Min. 70% Italia, max 30% Europa su base opportunistica."
+      }
     ],
     "sub2Eyebrow": "02 · Settori target",
     "sub2Body": "Il fondo si focalizza su quattro verticali, fondamentali per il rafforzamento della competitività e dell'autonomia industriale ed economica dell'Italia e dell'Europa.",
     "sectors": [
-      { "title": "AgriFood B2B & Technology", "alt": "Agricoltura e tecnologia" },
-      { "title": "Technology & Business Transformation", "alt": "Tecnologia e trasformazione digitale" },
-      { "title": "Energy Transition & Related Services", "alt": "Transizione energetica" },
-      { "title": "Aerospace, Defense & Safety", "alt": "Aerospazio e difesa" }
+      {
+        "title": "AgriFood B2B & Technology",
+        "alt": "Agricoltura e tecnologia"
+      },
+      {
+        "title": "Technology & Business Transformation",
+        "alt": "Tecnologia e trasformazione digitale"
+      },
+      {
+        "title": "Energy Transition & Related Services",
+        "alt": "Transizione energetica"
+      },
+      {
+        "title": "Aerospace, Defense & Safety",
+        "alt": "Aerospazio e difesa"
+      }
     ],
     "sub3": "03 · Approccio distintivo",
     "sub3Body": "Il framework operativo di Origine coniuga capitale paziente, know-how industriale e un assetto di governance stringente, strutturato per catalizzare i processi di espansione e consolidamento corporate delle partecipate.",
@@ -139,9 +170,18 @@
     "p1": "I fattori ESG costituiscono una componente centrale dell'approccio di investimento di Origine, affinché l'intero portafoglio abbia un vantaggio competitivo strutturale. L'integrazione degli standard ESG, lungo l'intero ciclo di investimento, contribuisce a rafforzare la resilienza degli asset, migliorare le performance operative e promuovere una crescita sostenibile nel tempo.",
     "p2": "Crediamo fortemente che la crescita delle società di portafoglio debba essere sostenibile, inclusiva e trasparente: ogni investimento sarà oggetto di due diligence ESG.",
     "pills": [
-      { "title": "Resilienza", "desc": "Asset più solidi" },
-      { "title": "Performance", "desc": "Operatività migliore" },
-      { "title": "Due diligence", "desc": "Su ogni investimento" }
+      {
+        "title": "Resilienza",
+        "desc": "Asset più solidi"
+      },
+      {
+        "title": "Performance",
+        "desc": "Operatività migliore"
+      },
+      {
+        "title": "Due diligence",
+        "desc": "Su ogni investimento"
+      }
     ]
   },
   "team": {
@@ -168,8 +208,14 @@
     "title": "News",
     "intro": "Comunicati stampa e aggiornamenti istituzionali dalla costituzione di Origine.",
     "items": [
-      { "date": "Comunicato stampa", "title": "Al via Origine SGR." },
-      { "date": "Rassegna stampa", "title": "Al via Origine SGR, nuova società di gestione di fondi di private equity e venture capital." }
+      {
+        "date": "Comunicato stampa",
+        "title": "Al via Origine SGR."
+      },
+      {
+        "date": "Rassegna stampa",
+        "title": "Al via Origine SGR, nuova società di gestione di fondi di private equity e venture capital."
+      }
     ]
   },
   "contatti": {
@@ -195,8 +241,8 @@
   },
   "portfolio": {
     "eyebrow": "Portfolio",
-    "title": "Origine <em>VC Funds</em>.",
-    "intro": "Il portafoglio del fondo di Venture Capital consiste in partecipazioni di minoranza in startup internazionali, primariamente nel settore healthcare e — in misura minore — digital.",
+    "title": "Origine <em>Portfolio</em>.",
+    "intro": "Origine investe attraverso due strategie complementari — Private Equity e Venture Capital — sostenendo le aziende dall'innovazione early-stage alla crescita industriale consolidata.",
     "metricCompaniesLabel": "Società in portafoglio",
     "ctaTitle": "Costruiamo il prossimo capitolo, <em>insieme.</em>",
     "ctaButton": "Contattaci",
@@ -255,7 +301,18 @@
       "soulkitchen": {
         "desc": "Società italiana di food-tech con sede a Milano che sviluppa ingredienti semi-lavorati e soluzioni alimentari pronte all'uso per ristoranti e retail, ottimizzando la produzione alimentare attraverso processi industrializzati e data-driven.",
         "status": "Q1 2018 · Partecipazione 18,3%"
+      },
+      "martini": {
+        "desc": "Il Gruppo Martini è uno storico operatore italiano della filiera agroalimentare, attivo nella produzione e commercializzazione di mangimi, carni e prodotti alimentari, con una presenza consolidata lungo l'intera catena del valore. BF International è la piattaforma di BF S.p.A. dedicata allo sviluppo di progetti agro-industriali integrati e sostenibili nei mercati internazionali. Origine Growth PE ha investito a fianco di BF S.p.A. e BF International per sostenere l'ingresso del Gruppo Martini nella piattaforma, supportandone il percorso di crescita e di sviluppo internazionale. Al verificarsi di determinate condizioni Origine Growth PE deterrà una quota di minoranza in BF International.",
+        "status": "Q2 2026 · Minoranza"
       }
-    }
+    },
+    "divisionsAria": "Strategie di investimento",
+    "divisions": {
+      "pe": "Private Equity",
+      "vc": "Venture Capital"
+    },
+    "peIntro": "Origine Growth PE investe in aziende italiane consolidate, leader nei rispettivi settori, sostenendone la crescita e lo sviluppo internazionale.",
+    "vcIntro": "Il portafoglio del fondo di Venture Capital consiste in partecipazioni di minoranza in startup internazionali, primariamente nel settore healthcare e — in misura minore — digital."
   }
 }
