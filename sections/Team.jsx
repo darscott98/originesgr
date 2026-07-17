@@ -17,7 +17,7 @@ const peTeam = [
   { ini: "DC", name: "Dario Cenci", role: "Senior Partner", bioKey: "cenci", img: "/images/Dario-Cenci.png" },
   { ini: "TM", name: "Tommaso Molinaro", role: "Partner", bioKey: "molinaro", img: "/images/Tommaso-Molinaro.png" },
   { ini: "MM", name: "Micki Mineo", role: "Investment Manager", bioKey: "mineo", img: "/images/Micki-Mineo.png" },
-  { ini: "ET", name: "Edoardo Tamburelli", role: "Investment Manager", bioKey: "tamburelli", img: "/images/Edoardo-Tamburelli.png" },
+  { ini: "ET", name: "Edoardo Tamburelli", role: "Investment Associate", bioKey: "tamburelli", img: "/images/Edoardo-Tamburelli.png" },
 ];
 
 const seniorAdvisors = [
